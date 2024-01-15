@@ -4,7 +4,7 @@
 
 - [Back to overview](../README.md)
 - [Play online](https://nineteendo.github.io/tetris4karchive/mini-tetris/archive/dist)
-- [Archived files](archive)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/mini-tetris/archive)
 - [Source code](https://github.com/veu/mini-tetris)
 
 ## 2. Summary

@@ -5,7 +5,7 @@
 - [Back to overview](../README.md)
 - [Showcase video](https://link.to/showcase.video)
 - [Play online](https://nineteendo.github.io/tetris4karchive/path/to/game) OR [How to play](#6-how-to-play)
-- [Archived files](archive)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/.template/archive)
 - [Source code](https://link.to/source.code)
 
 ## 2. Summary

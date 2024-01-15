@@ -4,7 +4,7 @@
 
 - [Back to overview](../README.md)
 - [How to play](#5-how-to-play)
-- [Archived files](.)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetros105/archive)
 - [Source code](https://board.flatassembler.net/topic.php?p=211564#211831)
 
 ## 2. Summary

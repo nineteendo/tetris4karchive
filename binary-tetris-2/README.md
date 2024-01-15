@@ -4,7 +4,7 @@
 
 - [Back to overview](../README.md)
 - [Play online](https://nineteendo.github.io/tetris4karchive/binary-tetris-2/archive)
-- [Archived files](archive)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/binary-tetris-2/archive)
 - [Source code](https://gist.github.com/aemkei/1672254)
 
 ## 2. Summary

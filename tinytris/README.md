@@ -4,7 +4,7 @@
 
 - [Back to overview](../README.md)
 - [How to play](#5-how-to-play)
-- [Archived files](archive)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tinytris/archive)
 - [Source code](https://github.com/pellsson/tinytris)
 
 ## 2. Summary
@@ -48,7 +48,7 @@ After downloading, the program can be run in one of these 2 ways:
 
 1. Move `tinytris.com` to `~/dosgames`
 2. [Download DOSBox](https://www.dosbox.com/download.php?main=1)
-3. Setup [AUTOEXEC](https://www.dosbox.com/wiki/AUTOEXEC)
+3. [Setup AUTOEXEC](https://www.dosbox.com/wiki/AUTOEXEC)
 4. Run the command for your operating system:
 
 ### 5.2.1 Windows

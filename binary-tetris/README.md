@@ -4,7 +4,7 @@
 
 - [Back to overview](../README.md)
 - [Play online](https://nineteendo.github.io/tetris4karchive/binary-tetris/archive)
-- [Archived files](archive)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/binary-tetris/archive)
 - [Source code](https://codegolf.stackexchange.com/a/121622/120787)
 
 ## 2. Summary
