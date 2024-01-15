@@ -1,6 +1,6 @@
 # Tetris 4K archive
 
-This is an incomplete list of Tetris programs smaller than 4 KiB (4096 B), feel free to contribute.
+This is an incomplete list of Tetris programs smaller than 4 KiB (4096 B), feel free to [contribute on GitHub](https://github.com/nineteendo/tetris4karchive).
 
 ## 1. Disclaimer
 
