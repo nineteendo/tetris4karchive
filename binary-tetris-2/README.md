@@ -3,8 +3,8 @@
 ## 1. Links
 
 - [Back to overview](../README.md)
-- [Play online](https://nineteendo.github.io/tetris4karchive/binary-tetris-2)
-- [Archived files](.)
+- [Play online](https://nineteendo.github.io/tetris4karchive/binary-tetris-2/archive)
+- [Archived files](archive)
 - [Source code](https://gist.github.com/aemkei/1672254)
 
 ## 2. Summary
