@@ -34,7 +34,7 @@
 
 ## 5. How to play
 
-After downloading, the program can be run in one of these 2 ways:
+After [downloading the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main), the program can be run in one of these 2 ways:
 
 ### 5.1. QEMU
 
@@ -47,7 +47,7 @@ After downloading, the program can be run in one of these 2 ways:
 ### 5.2. DOSBox
 
 1. Move `tinytris.com` to `~/dosgames`
-2. [Download DOSBox](https://www.dosbox.com/download.php?main=1)
+2. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
 3. [Setup AUTOEXEC](https://www.dosbox.com/wiki/AUTOEXEC)
 4. Run the command for your operating system:
 

@@ -45,7 +45,7 @@
 
 ## 5. How to play
 
-After downloading, the program can be run in one of these 3 ways:
+After [downloading the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main), the program can be run in one of these 3 ways:
 
 ### 5.1. QEMU
 
@@ -57,7 +57,7 @@ After downloading, the program can be run in one of these 3 ways:
 
 ### 5.2. DOSBox
 
-1. [Download DOSBox](https://www.dosbox.com/download.php?main=1)
+1. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
 2. Run the command for your operating system, replacing `/path/to/tetros.img`:
 
 ### 5.2.1 Windows
