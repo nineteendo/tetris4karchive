@@ -85,7 +85,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 
 ### 5.2 TI-84
 
-1. [Download TI Connect™ CE](https://education.ti.com/software/update/84-ce-software-update)
+1. [Download TI Connect™ CE](https://education.ti.com/en/software/update/84-ce-software-update/84ce-download?q1=ti-connect&count=1)
 2. Open TI Connect™ CE
 3. Connect your calculator with a USB Mini-B cable
 4. Open Calculator Explorer Workspace
