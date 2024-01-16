@@ -74,7 +74,7 @@
 
 After [downloading the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main), the program can be run in one of these 2 ways:
 
-### 5.1 WabbitEmu
+### 5.1 WabbitEmu (Windows only)
 
 1. [Download ti84se.rom](https://tiroms.weebly.com/uploads/1/1/0/5/110560031/ti84se.rom)
 2. [Download WabbitEmu](https://github.com/sputt/wabbitemu/releases/download/v1.9.5.22/Wabbitemu.exe)

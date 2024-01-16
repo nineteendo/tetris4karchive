@@ -51,3 +51,4 @@
     - MacOS:
         ```shell
         /Applications/dosbox.app/Contents/MacOS/DOSBox -c tetris.com
+        ```
