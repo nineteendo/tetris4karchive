@@ -1,0 +1,20 @@
+GridOff
+Menu("","prgm",0,"Func",1
+Lbl 0
+PlotsOff 
+AxesOff
+FnOff 
+Full
+ΔX→ΔX
+ΔY→ΔY
+ZoomSto
+0→Xmin
+1→ΔX
+0→Ymin
+1→ΔY
+Disp 
+Return
+Lbl 1
+ZoomRcl
+AxesOn 
+FnOn 

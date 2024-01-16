@@ -39,4 +39,4 @@
 
 1. Pieces can be placed by moving them into the side of another piece
 2. If you move off the side of the screen, you reappear on the other side, one row higher or lower
-3. The blocks invert if you press right immediately after placing a piece
+3. The blocks invert if you press <kbd>`Right</kbd> immediately after placing a piece

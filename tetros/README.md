@@ -1,62 +1,46 @@
-# TetrOS v1.05 by Tomasz Grysztar
+# TetrOS by Daniel Etzold
 
 ## 1. Links
 
 - [Back to overview](../README.md)
-- [How to play](#6-how-to-play)
-- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetros105/archive)
-- [Source code](https://board.flatassembler.net/topic.php?p=211564#211831)
+- [Showcase video](https://youtu.be/Hl7M7f-Hh78)
+- [How to play](#5-how-to-play)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetros/archive)
+- [Source code](https://github.com/daniel-e/tetros)
 
 ## 2. Summary
 
 - **Programming language**: Assembly
-- **Main size**: 508 B
-- **Extra size**: 4 B
+- **Main size**: 446 B
+- **Extra size**: 66 B
 - **Total size**: 512 B
-- **Feature count**: 16
-- **Bytes per feature**: 32 B
+- **Feature count**: 9
+- **Bytes per feature**: 50 B
 
 ## 3. Controls
 
-- <kbd>Esc</kbd>: restart
 - <kbd>Up</kbd>: rotate counterclockwise
 - <kbd>Left</kbd>: move left
-- <kbd>Down</kbd>: hard drop
 - <kbd>Right</kbd>: move right
+- <kbd>Any Key</kbd>: hard drop
 
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Faster levels**: `speed = points / 100 % 4`
+2. **Colored pieces**
 3. **Game over detection**
 4. **Gravity**
-5. **Hard drop**: 1 frame lock
-6. **Height score multiplier**: `1 + height / 2`
-7. **Horizontal movement**
-8. **Line clearing**
-9. **Line clear points**:
-    - **Single**: `1 * multiplier`
-    - **Double**: `3 * multiplier`
-    - **Triple**: `7 * multiplier`
-    - **Tetris**: `15 * multiplier`
-10. **Next queue**: singe piece
-11. **No bugs**: except when booted from USB
-12. **Place points**: `1 * multiplier`
-13. **Random background color**: restart if you can't see the walls
-14. **Restart**
-15. **Retry**
-16. **Rotation**
+5. **Hard drop**: piece falls at maximum speed
+6. **Horizontal movement**
+7. **Line clearing**
+8. **No bugs**
+9. **Rotation**
 
-## 5. Bugs (USB stick only)
-
-1. Color doesn't work
-2. The bottom row isn't visible
-
-## 6. How to play
+## 5. How to play
 
 After [downloading the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main), the program can be run in one of these 3 ways:
 
-### 6.1. QEMU
+### 5.1. QEMU
 
 1. [Download QEMU](https://www.qemu.org/download)
 2. Run the following command, replacing `/path/to/tetros.img`:
@@ -64,7 +48,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
     qemu-system-x86_64 -drive format=raw,file=/path/to/tetros.img
     ```
 
-### 6.2. DOSBox
+### 5.2. DOSBox
 
 1. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
 2. Run the command for your operating system, replacing `/path/to/tetros.img`:
@@ -77,7 +61,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
         /Applications/dosbox.app/Contents/MacOS/DOSBox -c "BOOT /path/to/tetros.img"
         ```
 
-### 6.3. USB stick (Windows only)
+### 5.3. USB stick (Windows only)
 
 For ASUS laptops, [follow this tutorial](https://youtu.be/ECmYtPBSMI8) first.
 

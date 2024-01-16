@@ -31,10 +31,14 @@
 2. **Game over detection**
 3. **Game over screen**: invert blocks
 4. **Gravity**
-5. **Hard drop**: the piece falls at maximum speed
+5. **Hard drop**: piece falls at maximum speed until you press another key
 6. **Horizontal movement**
 7. **Line clearing**
-8. **Line clear points**: 100 (single), 300 (double), 600 (triple), 1000 (tetris)
+8. **Line clear points**:
+    - **Single**: 100
+    - **Double**: 300
+    - **Triple**: 600
+    - **Tetris**: 1000
 9. **No bugs**
 10. **Quit**: quit browser
 11. **Restart**: refresh page
