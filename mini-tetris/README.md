@@ -10,7 +10,7 @@
 ## 2. Summary
 
 - **Programming language**: JavaScript
-- **Main size**: 467 B
+- **Main size**: 464 B
 - **Extra size**: 42 B
 - **Total size**: 509 B
 - **Feature count**: 14
