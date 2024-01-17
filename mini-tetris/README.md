@@ -18,9 +18,9 @@
 
 ## 3. Controls
 
+- <kbd>Up</kbd>: rotate counterclockwise
 - <kbd>Ctrl</kbd>+<kbd>R</kbd>, <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
 - <kbd>Alt</kbd>+<kbd>F4</kbd>, <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
-- <kbd>Up</kbd>: rotate counterclockwise
 - <kbd>Left</kbd>: move left
 - <kbd>Down</kbd>: hard drop
 - <kbd>Right</kbd>: move right

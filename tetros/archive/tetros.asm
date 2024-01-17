@@ -104,14 +104,14 @@ wait_a:
 
 	push ax
 	mov ah, 1                    ; check for keystroke; AX modified
-	int 0x16                     ; http://www.ctyme.com/intr/rb-1755.htm
+	int 0x16                     ; https://ctyme.com/intr/rb-1755.htm
 	mov cx, ax
 	pop ax
 	jz no_key                    ; no keystroke
 	call clear_brick
                                  ; 4b left, 48 up, 4d right, 50 down
 	cmp ch, 0x4b                 ; left arrow
-	je left_arrow                ; http://stackoverflow.com/questions/16939449/how-to-detect-arrow-keys-in-assembly
+	je left_arrow                ; https://stackoverflow.com/questions/16939449/how-to-detect-arrow-keys-in-assembly
 	cmp ch, 0x48                 ; up arrow
 	je up_arrow
 	cmp ch, 0x4d

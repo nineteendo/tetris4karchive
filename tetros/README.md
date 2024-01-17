@@ -42,7 +42,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 
 ### 5.1. QEMU
 
-1. [Download QEMU](https://www.qemu.org/download)
+1. [Download QEMU](https://qemu.org/download)
 2. Run the following command, replacing `/path/to/tetros.img`:
     ```shell
     qemu-system-x86_64 -drive format=raw,file=/path/to/tetros.img
@@ -69,9 +69,10 @@ For ASUS laptops, [follow this tutorial](https://youtu.be/ECmYtPBSMI8) first.
 2. [Download Rufus](https://rufus.ie)
 3. Open Rufus
 4. Select USB stick
-5. Select `tetros.img`
-6. Click on START
-7. Restart PC
-8. Tap <kbd>Esc</kbd> until the boot menu appears
-9. Select USB stick
-10. Press <kbd>Enter</kbd>
+5. Set Boot selection to `Disk or ISO image`
+6. Select `tetros.img`
+7. <kbd>START</kbd>
+8. Restart PC
+9. Tap <kbd>Esc</kbd> until the boot menu appears
+10. Select USB stick
+11. Press <kbd>Enter</kbd>

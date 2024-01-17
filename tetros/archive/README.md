@@ -3,7 +3,7 @@ TetrOS is a small *feature rich* Tetris clone which is written in Assembly. It f
 
 Video that shows TetrOS in action:
 
-[![TetrOS - Teris in 512 byte boot sector](http://img.youtube.com/vi/Hl7M7f-Hh78/0.jpg)](https://youtu.be/Hl7M7f-Hh78)
+[![TetrOS - Teris in 512 byte boot sector](https://img.youtube.com/vi/Hl7M7f-Hh78/0.jpg)](https://youtu.be/Hl7M7f-Hh78)
 
 And this is the complete machine code:
 
@@ -44,7 +44,7 @@ After that you should be able to boot the stick to play TetrOS.
 
 ## Compiling the sources
 
-The repository already contains an image which you can use for testing. However, if you want to compile the image from the sources you need nasm, a general prupose x86 assembler to be installed on your system. On Ubuntu you can can install it via the command `sudo apt-get install nasm`. On macOS you will need [homebrew](http://brew.sh/) to install `nasm` and `binutils`.
+The repository already contains an image which you can use for testing. However, if you want to compile the image from the sources you need nasm, a general prupose x86 assembler to be installed on your system. On Ubuntu you can can install it via the command `sudo apt-get install nasm`. On macOS you will need [homebrew](https://brew.sh) to install `nasm` and `binutils`.
 
 If `nasm` is installed you can compile the sources by executing `make`. This will create the image `tetros.img`. After that you can run the image via qemu or you can copy the image via `dd` on an USB disk or a disk (see above).
 

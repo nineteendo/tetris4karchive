@@ -1,11 +1,8 @@
-; Modified by nanochess for compatibility with VirtualBox,
-;   to require only 286 and also now it's in color.
-
 ; 16 bits, starting at 0x7C00.
 BITS 16
 ORG 0x7C00
 
-BSS             EQU 0x0504    ; The byte at 0x0500 is also used, so align on next dword bound.
+BSS             EQU 0x504     ; The byte at 0x500 is also used, so align on next dword bound.
 BSS_SIZE        EQU 438
 
 CUR_TETRAMINO   EQU BSS       ; 16 bytes.
@@ -13,15 +10,15 @@ ROT_TETRAMINO   EQU BSS + 16  ; 16 bytes.
 OFFSET          EQU BSS + 32  ; 2 bytes.
 STACK           EQU BSS + 38  ; 4 bytes reserved in beginning, 400 bytes.
 
-LEFT_SCANCODE   EQU 0x4b
-RIGHT_SCANCODE  EQU 0x4d
+LEFT_SCANCODE   EQU 75
+RIGHT_SCANCODE  EQU 77
 
-UP_SCANCODE     EQU 0x48
-DOWN_SCANCODE   EQU 0x50
+UP_SCANCODE     EQU 72
+DOWN_SCANCODE   EQU 80
 
 SCORE_DIGITS    EQU 5
 
-CPU 286
+CPU 686
 
 ; Entry point.
 ;     cs:ip -> linear address (usually 0x7C00, but irrelevant because we are position independent).
@@ -116,18 +113,18 @@ tetramino_process:
             ret
 
 check_collision:
-    or al,al
-    jz .clear_carry
+    cmp al, 0xDB
+    jnz .clear_carry
 
     cmp di, STACK + 400
     jae .colliding
 
-    cmp byte [di],0
+    cmp al, [di]
 
     .clear_carry:
         clc
 
-    je .next_iter
+    jne .next_iter
 
     ; Colliding!
     .colliding:
@@ -157,7 +154,7 @@ pop_check:
 
     .borders:
         mov si, STACK - 3
-        mov ax, 0x0101
+        mov ax, 0xDBDB
 
     .borders_init:
         mov [si], ax
@@ -174,8 +171,6 @@ pop_check:
     .event_loop:
         mov si, OFFSET
 
-        ; For some reason this doesn't work with BootOS over VirtualBox 5.1.22
-    %if 0
         mov bx, [0x046C]
         inc bx
         inc bx              ; Wait for 2 PIT ticks.
@@ -183,23 +178,7 @@ pop_check:
         .busy_loop:
             cmp [0x046C], bx
             jne .busy_loop
-    %else
-        push dx
-.busy_loop1:
-        mov ah,0x00
-        int 0x1a
-        cmp [0x1000],dx
-        je .busy_loop1
-        mov [0x1000],dx
-.busy_loop2:
-        mov ah,0x00
-        int 0x1a
-        cmp [0x1000],dx
-        je .busy_loop2
-        mov [0x1000],dx
-        pop dx
-        xor cx,cx	; Or rotation doesn't work
-    %endif
+
         ; If we don't need to load a new tetramino, yayy!
         test dl, dl
         jnz .input
@@ -207,7 +186,7 @@ pop_check:
         ; Load a tetramino to CUR_TETRAMINO, from the compressed bitmap format.
 
         .choose_tetramino:
-        in al,(0x40)
+        rdtsc
 
         ; Only 7 tetraminos, index as 1-7.
         and ax, 7
@@ -215,8 +194,7 @@ pop_check:
 
         ; Get the address of the tetramino (in bitmap format).
         cwd
-        mov di,ax
-        mov ah,al
+        xchg di, ax
 
         ; Load tetramino bitmap in dl.
         mov dl, [cs:bp + di + (tetraminos - tetramino_collision_check) - 1]
@@ -230,9 +208,9 @@ pop_check:
 
             shl dx, 1
 
-            ; If the bit we just shifted off was set, store number of tetramino.
+            ; If the bit we just shifted off was set, store 0xDB.
             sbb al, al
-            and al, ah
+            and al, 0xDB
             mov [di], al
             inc di
 
@@ -256,13 +234,6 @@ pop_check:
             ; Clear the keyboard buffer.
             xor ah, ah
             int 0x16
-
-        .exit:
-            cmp ah, 0x01
-            jne .left
-            mov ax,0x0002         ; Clear screen
-            int 0x10
-            int 0x20              ; Return to bootOS
 
         ; Go left.
         .left:
@@ -405,8 +376,7 @@ pop_check:
 
                 .stack_line:
                     lodsb
-                    mov ah,al
-                    mov al,0xdb
+
                     ; Store one character as two -- to make stack "squarish" on 80x25 display.
                     stosw
                     stosw
@@ -452,13 +422,10 @@ pop_check:
 
                 .load_tetramino:
                     lodsb
-                    or al,al
-                    mov ah,al
-                    mov al,0xdb
+                    test al, al
+
                     ; Output two characters for "squarish" output.
-                    jne .load_tetramino2
-                    mov ax, [es:di]
-                .load_tetramino2:
+                    cmovz ax, [es:di]
                     stosw
                     stosw
 
@@ -492,3 +459,6 @@ times 510 - ($ - $$)            db 0
 
 BIOS_signature:
     dw 0xAA55
+
+; Pad to floppy disk.
+times (1440 * 1024) - ($ - $$)  db 0

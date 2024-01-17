@@ -1,20 +1,20 @@
-# Tetranglix by XlogicX
+# Tetranglix by shikhin
 
 ## 1. Links
 
 - [Back to overview](../README.md)
 - [How to play](#6-how-to-play)
-- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetranglix/archive)
-- [Source code](https://github.com/XlogicX/tetranglix)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetranglix-2/archive)
+- [Source code](https://github.com/shikhin/tetranglix)
 
 ## 2. Summary
 
 - **Programming language**: Assembly
-- **Main size**: 491 B
-- **Extra size**: 21 B
+- **Main size**: 446 B
+- **Extra size**: 66 B
 - **Total size**: 512 B
-- **Feature count**: 9
-- **Bytes per feature**: 55 B
+- **Feature count**: 7
+- **Bytes per feature**: 64 B
 
 ## 3. Controls
 
@@ -24,24 +24,21 @@
 
 ## 4. Features
 
-1. **All tetrominoes**
-2. **Colored pieces**
-3. **Game over detection**
-4. **Gravity**
-5. **Horizontal movement**
-6. **Line clearing**
-7. **Line clear points**:
+1. **Game over detection**
+2. **Gravity**
+3. **Horizontal movement**
+4. **Line clearing**
+5. **Line clear points**:
     - **Single**: 64
     - **Double**: 128
     - **Triple**: 192
-    - **Tetris**: 256
-8. **Rotation**
-9. **Time points**: `1 * frame`
+6. **Rotation**
+7. **Time points**: `1 * frame`
 
 ## 5. Bugs
 
-1. The game can't keep up with keyboard input
-2. Pressing <kbd>Esc</kbd> resets the score on QEMU
+1. Not all tetromioes are drawn
+2. The game can't keep up with keyboard input
 
 ## 6. How to play
 

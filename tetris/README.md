@@ -42,7 +42,7 @@
 1. [Download the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main)
 2. Move `tetris.com` to `~/dosgames`
 3. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
-4. [Setup AUTOEXEC](https://www.dosbox.com/wiki/AUTOEXEC)
+4. [Setup AUTOEXEC](https://dosbox.com/wiki/AUTOEXEC)
 5. Run the command for your operating system:
     - Windows:
         ```shell

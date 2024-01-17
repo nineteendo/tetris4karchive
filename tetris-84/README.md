@@ -82,11 +82,17 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 4. Browse for `ti84se.rom`
 5. View > Enable skin
 6. Load `ZOOM.8XP` and `TETRIS.8XP`
+7. Run prgmZOOM
+8. Select `prgm`
+9. Run prgmTETRIS
 
 ### 5.2 TI-84
 
-1. [Download TI Connect™ CE](https://education.ti.com/en/software/update/84-ce-software-update/84ce-download?q1=ti-connect&count=1)
+1. [Download TI Connect™ CE](https://education.ti.com/software/update/84-ce-software-update/84ce-download?q1=ti-connect&count=1)
 2. Open TI Connect™ CE
 3. Connect your calculator with a USB Mini-B cable
 4. Open Calculator Explorer Workspace
 5. Transfer `ZOOM.8XP` and `TETRIS.8XP`
+6. Run prgmZOOM
+7. Select `prgm`
+8. Run prgmTETRIS

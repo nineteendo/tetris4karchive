@@ -41,7 +41,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 
 ### 6.1. QEMU
 
-1. [Download QEMU](https://www.qemu.org/download)
+1. [Download QEMU](https://qemu.org/download)
 2. Run the following command, replacing `/path/to/tinytris.img`:
     ```shell
     qemu-system-x86_64 -drive format=raw,file=/path/to/tinytris.img
@@ -51,7 +51,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 
 1. Move `tinytris.com` to `~/dosgames`
 2. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
-3. [Setup AUTOEXEC](https://www.dosbox.com/wiki/AUTOEXEC)
+3. [Setup AUTOEXEC](https://dosbox.com/wiki/AUTOEXEC)
 4. Run the command for your operating system:
     - Windows:
         ```shell

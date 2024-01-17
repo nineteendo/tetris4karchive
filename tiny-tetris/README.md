@@ -1,10 +1,10 @@
-# TinyTetris by Dwing
+# Tiny Tetris by Dwing
 
 ## 1. Links
 
 - [Back to overview](../README.md)
 - [How to play](#5-how-to-play)
-- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tinytetris/archive)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tiny-tetris/archive)
 - [Source code](https://pouet.net/prod.php?which=15669)
 
 ## 2. Summary
@@ -50,7 +50,7 @@
 1. [Download the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main)
 2. Move `TinyTris.com` to `~/dosgames`
 3. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
-4. [Setup AUTOEXEC](https://www.dosbox.com/wiki/AUTOEXEC)
+4. [Setup AUTOEXEC](https://dosbox.com/wiki/AUTOEXEC)
 5. Run the command for your operating system:
     - Windows:
         ```shell
