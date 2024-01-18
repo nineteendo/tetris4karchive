@@ -3,7 +3,7 @@ TetrOS is a small *feature rich* Tetris clone which is written in Assembly. It f
 
 Video that shows TetrOS in action:
 
-[![TetrOS - Teris in 512 byte boot sector](https://img.youtube.com/vi/Hl7M7f-Hh78/0.jpg)](https://youtu.be/Hl7M7f-Hh78)
+[![TetrOS - Teris in 512 byte boot sector](https://i.ytimg.com/vi/Hl7M7f-Hh78/0.jpg)](https://youtu.be/Hl7M7f-Hh78)
 
 And this is the complete machine code:
 

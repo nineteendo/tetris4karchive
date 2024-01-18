@@ -3,7 +3,7 @@
 ## 1. Links
 
 - [Back to overview](../README.md)
-- [How to play](#5-how-to-play)
+- [How to play](#6-how-to-play)
 - [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetris-84/archive)
 - [Source code](https://github.com/nineteendo/ti84programs/blob/master/tetris-84)
 
@@ -16,11 +16,17 @@
 - **Feature count**: 29
 - **Bytes per feature**: 50 B
 
-## 3. Controls
+## 3. Pause menu options
+
+- **Return**: unpause
+- **New**: start new game
+- **Stop**: quit
+
+## 4. Controls
 
 - <kbd>On</kbd>: quit
 
-### 3.1. Game
+### 4.1. Game
 
 - <kbd>Window</kbd>: hold piece
 - <kbd>Trace</kbd>: pause
@@ -30,13 +36,13 @@
 - <kbd>Alpha</kbd>: rotate counterclockwise
 - <kbd>↓</kbd>: soft drop
 
-### 3.2. Pause menu
+### 4.2. Pause menu
 
 - <kbd>Window</kbd>: select next option
 - <kbd>Trace</kbd>: choose selected option
 - <kbd>↵ Enter</kbd>: exit sleep mode
 
-## 4. Features
+## 5. Features
 
 1. **All tetrominoes**
 2. **Alternative rotation**
@@ -72,11 +78,11 @@
 28. **Soft drop**
 29. **Visible center of rotation**: indicated with `+`
 
-## 5. How to play
+## 6. How to play
 
 After [downloading the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main), the program can be run in one of these 2 ways:
 
-### 5.1. WabbitEmu (Windows only)
+### 6.1. WabbitEmu (Windows only)
 
 1. [Download ti84se.rom](https://tiroms.weebly.com/uploads/1/1/0/5/110560031/ti84se.rom)
 2. [Download WabbitEmu](https://github.com/sputt/wabbitemu/releases/download/v1.9.5.22/Wabbitemu.exe)
@@ -88,7 +94,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 8. Select `prgm`
 9. Run prgmTETRIS
 
-### 5.2. TI-84
+### 6.2. TI-84
 
 1. [Download TI Connect™ CE](https://education.ti.com/software/update/84-ce-software-update/84ce-download?q1=ti-connect&count=1)
 2. Open TI Connect™ CE

@@ -6,8 +6,8 @@
         \/          \/         \/          \/         \/  . ORG!
       'elektronik free art' since 11 March 1996
 
-MIRRORS:  ftp.jp.scene.org          (http://ftp.dti.ad.jp)        in /pub/scene
-          ftp.au.scene.org          (http://ftp.labyrinth.net.au) in /pub/scene
+MIRRORS:  http://ftp.jp.scene.org   (http://ftp.dti.ad.jp)        in /pub/scene
+          http://ftp.au.scene.org   (http://ftp.labyrinth.net.au) in /pub/scene
 
 MAIN SPONSOR:
           Freeler                   (http://www.freeler.nl)

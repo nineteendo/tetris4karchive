@@ -4,7 +4,7 @@
 
 - [Back to overview](../README.md)
 - [Showcase video](https://link.to/showcase.video)
-- [Play online](https://nineteendo.github.io/tetris4karchive/path/to/game) OR [How to play](#7-how-to-play)
+- [Play online](https://nineteendo.github.io/tetris4karchive/path/to/game) OR [How to play](#8-how-to-play)
 - [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/.template/archive)
 - [Source code](https://link.to/source.code)
 
@@ -28,24 +28,30 @@ options:
     ...
 ```
 
-## 4. Controls
+## 4. Menu options
+
+- **Option 1**: description
+- **Option 2**: description
+- ...
+
+## 5. Controls
 
 - <kbd>Button 1</kbd>: description
 - <kbd>Button 2</kbd>: description
 - ...
 
-## 5. Features
+## 6. Features
 
 1. **Feature 1**: description (optional)
 2. **Feature 2**: description (optional)
 3. ...
 
-## 6. Bugs
+## 7. Bugs
 
 1. Bug 1
 2. Bug 2
 3. ...
 
-## 7. How to play
+## 8. How to play
 
 Description.

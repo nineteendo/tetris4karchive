@@ -13,11 +13,17 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 - [**tetris-84.txt**](tetris-84.txt): formatted souce code
 - [**tetris-84.md**](tetris-84.md): text tutorial (**outdated**)
 
-## 3. Controls
+## 3. Pause menu options
+
+- **Return**: unpause
+- **New**: start new game
+- **Stop**: quit
+
+## 4. Controls
 
 - <kbd>On</kbd>: quit
 
-### 3.1. Game
+### 4.1. Game
 
 - <kbd>Window</kbd>: hold piece
 - <kbd>Trace</kbd>: pause
@@ -27,13 +33,13 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 - <kbd>Alpha</kbd>: rotate counterclockwise
 - <kbd>↓</kbd>: soft drop
 
-### 3.2. Pause menu
+### 4.2. Pause menu
 
 - <kbd>Window</kbd>: select next option
 - <kbd>Trace</kbd>: choose selected option
 - <kbd>↵ Enter</kbd>: exit sleep mode
 
-## 4. Features
+## 5. Features
 
 1. **All tetrominoes**
 2. **Alternative rotation**
@@ -69,7 +75,7 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 28. **Soft drop**
 29. **Visible center of rotation**: indicated with `+`
 
-## 5. Challenges
+## 6. Challenges
 
 Here are some challenges, or try beating my highscore 562,499:
 

@@ -4,12 +4,12 @@
 
 - [Back to overview](../README.md)
 - [How to play](#5-how-to-play)
-- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/.template/archive)
-- [Source code](https://link.to/source.code)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/4is-256/archive)
+- [Source code](https://pouet.net/prod.php?which=29286)
 
 ## 2. Summary
 
-- **Programming language**: ProgrammingLanguage
+- **Programming language**: Assembly
 - **Main size**: 256 B
 - **Extra size**: 0 B
 - **Total size**: 256 B

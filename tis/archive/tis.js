@@ -29,7 +29,7 @@
 
             baseBass = 'LSOSLSOSKSNSKSNS',
             music = [
-              // http://www.theoreticallycorrect.com/Helmholtz-Pitch-Numbering/
+              // http://theoreticallycorrect.com/Helmholtz-Pitch-Numbering
               //
               // Lowest note in treble: 60
               // Highest note in treble: 83
@@ -41,8 +41,8 @@
               // Other way:
               // note number - 28 + 24 * [0:eighth, 1:dotted quarter, 2:quarter, 3:half]
               //
-              // http://i.ytimg.com/vi/bpBePVCUM7E/maxresdefault.jpg
-              // https://www.youtube.com/watch?v=IBkH5_gLF8Q
+              // https://i.ytimg.com/vi/bpBePVCUM7E/maxresdefault.jpg
+              // https://youtu.be/IBkH5_gLF8Q
               '`+,^,+Y),`.,C,^`\\Yq^.1e31H,01.,C,^`\\Yq',
               'T$$T,+)$),Y))<$TTYTl.).1^..D,\\.,<$TTTTT`',
               // All notes are eighths.
@@ -72,7 +72,7 @@
             // x I J L O S T Z
             colors = '08080890dd936f9e809dd090e09c0c9f22'.split(9),
 
-            // http://tetris.wikia.com/wiki/SRS
+            // https://tetris.wikia.com/wiki/SRS
             //
             // Base-64 encoded string of bytes, consisting of 8 bytes for each tetromino.
             // Each 8-byte block is 4 words of 2 bytes, each word representing a rotation:
@@ -83,7 +83,7 @@
             // 3 2 1 0 <- second byte
             shapes = atob('8ABERAAPIiJxACYCcAQiA3QAIgZwASMCZgBmAGYAZgA2AGIEYAMxAnIAYgJwAjICYwBkAjAGMgE'),
 
-            // Wall kick tables: http://tetrisconcept.net/wiki/SRS#Wall_Kicks
+            // Wall kick tables: https://tetrisconcept.net/wiki/SRS#Wall_Kicks
             //
             // Each table is represented as 4 * 5 characters.
             // The first 4 are for orientation 0, etc., and the 5 characters are the
@@ -132,7 +132,7 @@
             html =
               divStyleMargin + '-14pc -10pc;position:fixed;width:20pc;left:50%;top:50%;font:12px Arial;background:rgba(0,0,0,.8);box-shadow:0 0 2pc #000;border-radius:1pc">' +
                 divStyleMargin + '1pc 2pc;color:#888">' +
-                  '<b><a href="http://github.com/ttencate/tis" style="color:inherit">Tis</a></b>: Tetris clone in just 4 kB of JavaScript<br><br>' +
+                  '<b><a href="https://github.com/ttencate/tis" style="color:inherit">Tis</a></b>: Tetris clone in just 4 kB of JavaScript<br><br>' +
                   'Left/right: move | Up/Ctrl/Alt: rotate | Esc: quit<br>' +
                   'Down/space: soft/hard drop | M: music' +
                 divEnd +
