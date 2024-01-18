@@ -14,15 +14,22 @@
 - **Main size**: 446 B
 - **Extra size**: 66 B
 - **Total size**: 512 B
-- **Feature count**: 9
-- **Bytes per feature**: 50 B
+- **Feature count**: 10
+- **Bytes per feature**: 45 B
 
 ## 3. Controls
 
+## 3.1. Game
+
+- <kbd>F16</kbd>: pause (DOSBox only)
 - <kbd>↑</kbd>: rotate counterclockwise
 - <kbd>←</kbd>: move left
 - <kbd>→</kbd>: move right
 - <kbd>Any Key</kbd>: hard drop
+
+### 3.2. Pause screen (DOSBox only)
+
+- <kbd>Any Key</kbd>: unpause
 
 ## 4. Features
 
@@ -34,7 +41,8 @@
 6. **Horizontal movement**
 7. **Line clearing**
 8. **No bugs**
-9. **Rotation**
+9. **Pause**: pause emulation (emulator only)
+10. **Rotation**
 
 ## 5. How to play
 
@@ -75,4 +83,4 @@ For ASUS laptops, [follow this tutorial](https://youtu.be/ECmYtPBSMI8) first.
 8. Restart PC
 9. Tap <kbd>Esc</kbd> until the boot menu appears
 10. Select USB stick
-11. Press <kbd>Enter</kbd>
+11. Press <kbd>↵ Enter</kbd>

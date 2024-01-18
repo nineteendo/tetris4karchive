@@ -28,9 +28,10 @@ options:
 
 ## 4. Controls
 
+- <kbd>F16</kbd>: pause
+
 ### 4.1. Game
 
-- <kbd>F16</kbd>: pause
 - <kbd>Page Up</kbd>: skip level
 - <kbd>P</kbd>: toggle piece preview
 - <kbd>↑</kbd>: rotate counterclockwise
@@ -63,7 +64,7 @@ options:
 12. **Level selection**: start from level 1 - 17
 13. **Line clearing**
 14. **No bugs**
-15. **Pause**
+15. **Pause**: pause emulation
 16. **Piece preview**: single piece
 17. **Piece preview selection**: piece preview or not
 18. **Place points**:

@@ -14,15 +14,22 @@
 - **Main size**: 1,9 KB
 - **Extra size**: 0 B
 - **Total size**: 1,9 KB
-- **Feature count**: 14
-- **Bytes per feature**: 135 B
+- **Feature count**: 15
+- **Bytes per feature**: 126 B
 
 ## 3. Controls
 
+### 3.1. Pause screen
+
+- <kbd>F16</kbd>: pause
 - <kbd>A</kbd>: move left
 - <kbd>Q</kbd>: quit
 - <kbd>S</kbd>: move right
 - <kbd>Space</kbd>: rotate counterclockwise
+
+### 3.2. Pause screen
+
+- <kbd>Any Key</kbd>: unpause
 
 ## 4. Features
 
@@ -36,10 +43,11 @@
 8. **Horizontal movement**
 9. **Line clearing**
 10. **No bugs**
-11. **Piece preview**: single piece
-12. **Quit**
-13. **Rotation**
-14. **Smooth falling**
+11. **Pause**: pause emulation
+12. **Piece preview**: single piece
+13. **Quit**
+14. **Rotation**
+15. **Smooth falling**
 
 ## 5. How to play
 

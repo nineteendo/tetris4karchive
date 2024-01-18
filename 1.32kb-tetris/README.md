@@ -14,13 +14,15 @@
 - **Extra size**: 0 B
 - **Total size**: 1,4 KB
 - **Feature count**: 17
-- **Bytes per feature**: 80 B
+- **Bytes per feature**: 75 B
 
 ## 3. Controls
 
+- <kbd>F16</kbd>: pause
+
 ## 3.1. Settings screen
 
-- <kbd>Enter</kbd>: start game
+- <kbd>↵ Enter</kbd>: start game
 - <kbd>↑</kbd>: increase speed
 - <kbd>←</kbd>: counterclockwise rotation
 - <kbd>↓</kbd>: decrease speed
@@ -34,7 +36,11 @@
 - <kbd>↓</kbd>: soft drop
 - <kbd>→</kbd>: move right
 
-### 3.2. Game over screen
+### 3.3. Pause screen
+
+- <kbd>Any Key</kbd>: unpause
+
+### 3.4. Game over screen
 
 - <kbd>Y</kbd>: retry
 - <kbd>N</kbd>: quit
@@ -54,13 +60,14 @@
     - **Double**: 3
     - **Triple**: 5
     - **Tetris**: 15
-10. **Piece preview**: single piece
-11. **Quit**
-12. **Retry**
-13. **Rotation**
-14. **Rotation selection**: clockwise or counterclockwise rotation
-15. **Soft drop**
-16. **Title screen**
+10. **Pause**: pause emulation
+11. **Piece preview**: single piece
+12. **Quit**
+13. **Retry**
+14. **Rotation**
+15. **Rotation selection**: clockwise or counterclockwise rotation
+16. **Soft drop**
+17. **Title screen**
 
 ## 5. Bugs
 

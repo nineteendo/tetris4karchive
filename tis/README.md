@@ -18,8 +18,8 @@
 
 ## 3. Controls
 
-- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
 
 ## 3.1. Game
 

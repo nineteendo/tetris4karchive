@@ -13,14 +13,21 @@
 - **Main size**: 491 B
 - **Extra size**: 21 B
 - **Total size**: 512 B
-- **Feature count**: 9
-- **Bytes per feature**: 55 B
+- **Feature count**: 10
+- **Bytes per feature**: 49 B
 
 ## 3. Controls
 
+## 3.1. Game
+
+- <kbd>F16</kbd>: pause (DOSBox only)
 - <kbd>↑</kbd>: rotate clockwise
 - <kbd>←</kbd>: move left
 - <kbd>→</kbd>: move right
+
+### 3.2. Pause screen (DOSBox only)
+
+- <kbd>Any Key</kbd>: unpause
 
 ## 4. Features
 
@@ -35,8 +42,9 @@
     - **Double**: 128
     - **Triple**: 192
     - **Tetris**: 256
-8. **Rotation**
-9. **Time points**: `1 * frame`
+8. **Pause**: pause emulation
+9. **Rotation**
+10. **Time points**: `1 * frame`
 
 ## 5. Bugs
 

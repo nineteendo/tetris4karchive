@@ -5,7 +5,7 @@ You can play it [here](https://michowski.com/dev/tetris-light).
 
 ## How to play
 
-1. Press **any key** to start the game. 
+1. Press **any key** to start the game.
 2. Use **up arrow** to rotate the current piece and **other arrows** to move it.
 
 ## Aditionally

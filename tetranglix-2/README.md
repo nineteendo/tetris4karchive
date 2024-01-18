@@ -13,14 +13,21 @@
 - **Main size**: 446 B
 - **Extra size**: 66 B
 - **Total size**: 512 B
-- **Feature count**: 7
-- **Bytes per feature**: 64 B
+- **Feature count**: 8
+- **Bytes per feature**: 56 B
 
 ## 3. Controls
 
+## 3.1. Game
+
+- <kbd>F16</kbd>: pause (DOSBox only)
 - <kbd>↑</kbd>: rotate clockwise
 - <kbd>←</kbd>: move left
 - <kbd>→</kbd>: move right
+
+### 3.2. Pause screen (DOSBox only)
+
+- <kbd>Any Key</kbd>: unpause
 
 ## 4. Features
 
@@ -32,8 +39,9 @@
     - **Single**: 64
     - **Double**: 128
     - **Triple**: 192
-6. **Rotation**
-7. **Time points**: `1 * frame`
+6. **Pause**: pause emulation
+7. **Rotation**
+8. **Time points**: `1 * frame`
 
 ## 5. Bugs
 

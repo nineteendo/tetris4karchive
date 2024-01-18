@@ -13,17 +13,24 @@
 - **Main size**: 471 B
 - **Extra size**: 0 B
 - **Total size**: 471 B
-- **Feature count**: 13
-- **Bytes per feature**: 36 B
+- **Feature count**: 14
+- **Bytes per feature**: 34 B
 
 ## 3. Controls
 
+## 3.1. Game
+
 - <kbd>Esc</kbd>: quit
+- <kbd>F16</kbd>: pause
 - <kbd>↑</kbd>: rotate counterclockwise
 - <kbd>Space</kbd>: soft drop
 - <kbd>←</kbd>: move left
 - <kbd>↓</kbd>: hard drop
 - <kbd>→</kbd>: move right
+
+### 3.2. Pause screen
+
+- <kbd>Any Key</kbd>: unpause
 
 ## 4. Features
 
@@ -41,9 +48,10 @@
     - **Triple**: 600
     - **Tetris**: 1000
 10. **No bugs**
-11. **Quit**
-12. **Rotation**
-13. **Soft drop**
+11. **Pause**: pause emulation
+12. **Quit**
+13. **Rotation**
+14. **Soft drop**
 
 ## 5. How to play
 

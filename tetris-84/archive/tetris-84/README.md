@@ -31,7 +31,7 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 
 - <kbd>Window</kbd>: select next option
 - <kbd>Trace</kbd>: choose selected option
-- <kbd>Enter</kbd>: exit sleep mode
+- <kbd>↵ Enter</kbd>: exit sleep mode
 
 ## 4. Features
 

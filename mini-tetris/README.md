@@ -19,8 +19,8 @@
 ## 3. Controls
 
 - <kbd>↑</kbd>: rotate counterclockwise
-- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
 - <kbd>←</kbd>: move left
 - <kbd>↓</kbd>: hard drop
 - <kbd>→</kbd>: move right

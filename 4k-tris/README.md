@@ -1,4 +1,4 @@
-# 4k-tris by Petr Blahos
+# 4K-tris by Petr Blahos
 
 ## 1. Links
 
@@ -18,7 +18,7 @@
 
 ## 3. Controls
 
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
 
 ### 3.1. Game
 

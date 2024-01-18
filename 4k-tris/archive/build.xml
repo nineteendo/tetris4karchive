@@ -41,7 +41,7 @@
 	<target name="dist" depends="compile" description="generate the distribution" >
 		
 		<exec dir="${build}" executable="zip">
-			<arg line="-X -D -9 ${dist}/4ktris-1.0.jar T.class o META-INF/MANIFEST.MF"/> 
+			<arg line="-X -D -9 ${dist}/4ktris-1.0.jar T.class o META-INF/MANIFEST.MF"/>
 		</exec>
 
 		<jar jarfile="${dist}/4ktris-FPS-1.0.jar" compress="true">

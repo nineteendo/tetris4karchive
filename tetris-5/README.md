@@ -20,8 +20,8 @@
 
 - <kbd>Q</kbd>: rotate counterclockwise
 - <kbd>W</kbd>: rotate clockwise
-- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
 - <kbd>←</kbd>: move left
 - <kbd>↓</kbd>: soft drop
 - <kbd>→</kbd>: move right

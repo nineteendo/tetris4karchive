@@ -37,7 +37,7 @@
               // Subtract 32, then:
               // - % 24 gives MIDI note number minus 60
               // - / 24 gives duration: eighth, dotted quarter, quarter, half
-              // 
+              //
               // Other way:
               // note number - 28 + 24 * [0:eighth, 1:dotted quarter, 2:quarter, 3:half]
               //

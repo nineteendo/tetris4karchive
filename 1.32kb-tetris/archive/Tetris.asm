@@ -22,7 +22,7 @@ Start:
 	mov bx, 1000h
         mov ax, 1100h
         int 10h				;Set font
-        
+
 	push word ptr 0b800h		;Video segment
 	pop es
 
@@ -51,7 +51,7 @@ NewGame:
         call PrintText
 	mov di, 1392
 	mov si, offset sRotation
-	call PrintText        
+	call PrintText
 
 	mov di, 292
 	mov ax, HiScore

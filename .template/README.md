@@ -11,11 +11,11 @@
 ## 2. Summary
 
 - **Programming language**: ProgrammingLanguage
-- **Main size**: 123 B
-- **Extra size**: 123 B
-- **Total size**: 123 B
-- **Feature count**: 12
-- **Bytes per feature**: 123 B
+- **Main size**: ... B
+- **Extra size**: ... B
+- **Total size**: ... B
+- **Feature count**: ...
+- **Bytes per feature**: ... B
 
 ## 3. Command line arguments
 

@@ -23,7 +23,7 @@
 
 ### 4.1. Game
 
-- <kbd>Enter</kbd>: hard drop
+- <kbd>↵ Enter</kbd>: hard drop
 - <kbd>↑</kbd>: rotate counterclockwise
 - <kbd>Space</kbd>: soft drop
 - <kbd>←</kbd>: move left

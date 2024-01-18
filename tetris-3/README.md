@@ -33,7 +33,7 @@
 - <kbd>Trace</kbd>: unpause
 - <kbd>↑</kbd>: select previous option
 - <kbd>↓</kbd>: select next option
-- <kbd>Enter</kbd>: choose selected option
+- <kbd>↵ Enter</kbd>: choose selected option
 
 ### 3.3. Score menu
 

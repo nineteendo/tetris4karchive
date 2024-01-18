@@ -22,8 +22,8 @@
 - <kbd>J</kbd> or <kbd>←</kbd>: move left
 - <kbd>K</kbd> or <kbd>↑</kbd>: rotate counterclockwise
 - <kbd>L</kbd> or <kbd>→</kbd>: move right
-- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
 - <kbd>Space</kbd>: hard drop
 
 ## 4. Features

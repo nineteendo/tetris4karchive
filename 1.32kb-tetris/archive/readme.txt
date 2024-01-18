@@ -13,4 +13,4 @@ How to play:
 
 Note: run in fullscreen
 
-P.S. There's a bug, speed doesn't change sometimes. 
+P.S. There's a bug, speed doesn't change sometimes.

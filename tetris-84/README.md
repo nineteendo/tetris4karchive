@@ -34,7 +34,7 @@
 
 - <kbd>Window</kbd>: select next option
 - <kbd>Trace</kbd>: choose selected option
-- <kbd>Enter</kbd>: exit sleep mode
+- <kbd>↵ Enter</kbd>: exit sleep mode
 
 ## 4. Features
 

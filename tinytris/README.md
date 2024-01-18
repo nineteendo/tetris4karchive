@@ -13,14 +13,21 @@
 - **Main size**: 251 B
 - **Extra size**: 0 B
 - **Total size**: 251 B
-- **Feature count**: 6
-- **Bytes per feature**: 42 B
+- **Feature count**: 7
+- **Bytes per feature**: 36 B
 
 ## 3. Controls
 
+## 3.1. Game
+
+- <kbd>F16</kbd>: pause
 - <kbd>J</kbd>: move left
 - <kbd>K</kbd>: rotate counterclockwise
 - <kbd>L</kbd>: move right
+
+### 3.2. Pause screen
+
+- <kbd>Any Key</kbd>: unpause
 
 ## 4. Features
 
@@ -29,7 +36,8 @@
 3. **Gravity**
 4. **Horizontal movement**
 5. **Line clearing**
-6. **Rotation**
+6. **Pause**: pause emulation
+7. **Rotation**
 
 ## 5. Bugs
 
