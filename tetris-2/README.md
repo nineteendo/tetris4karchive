@@ -3,8 +3,8 @@
 ## 1. Links
 
 - [Back to overview](../README.md)
-- [How to play](#5-how-to-play)
 - [Play online](https://onlinegdb.com/ebhsz8Ya6)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetris-2/archive)
 - [Source code](https://codegolf.stackexchange.com/a/11548/120787)
 
 ## 2. Summary

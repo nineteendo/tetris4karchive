@@ -5,7 +5,7 @@
 - [Back to overview](../README.md)
 - [How to play](#5-how-to-play)
 - [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/4k-tris/archive)
-- [Source code](https://web.archive.org/20201007111205/sites.google.com/site/petrsstuff/projects/4ktris)
+- [Source code](https://web.archive.org/20201007111205/https://sites.google.com/site/petrsstuff/projects/4ktris)
 
 ## 2. Summary
 
