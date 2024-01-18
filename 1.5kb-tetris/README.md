@@ -18,12 +18,12 @@
 
 ## 3. Controls
 
-- <kbd>I</kbd>, <kbd>M</kbd>, <kbd>Down</kbd>: soft drop
-- <kbd>J</kbd>, <kbd>Left</kbd>: move left
-- <kbd>K</kbd>, <kbd>Up</kbd>: rotate counterclockwise
-- <kbd>L</kbd>, <kbd>Right</kbd>: move right
-- <kbd>Ctrl</kbd>+<kbd>R</kbd>, <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd>, <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>I</kbd>, <kbd>M</kbd> or <kbd>↓</kbd>: soft drop
+- <kbd>J</kbd> or <kbd>←</kbd>: move left
+- <kbd>K</kbd> or <kbd>↑</kbd>: rotate counterclockwise
+- <kbd>L</kbd> or <kbd>→</kbd>: move right
+- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
 - <kbd>Space</kbd>: hard drop
 
 ## 4. Features
@@ -41,8 +41,8 @@
     - **Double**: 27
     - **Triple**: 63
     - **Tetris**: 135
-10. **Next queue**: singe piece
-11. **No bugs**
+10. **No bugs**
+11. **Piece preview**: single piece
 12. **Place points**: 9
 13. **Quit**: quit browser
 14. **Restart**: refresh page

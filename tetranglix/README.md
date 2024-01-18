@@ -18,9 +18,9 @@
 
 ## 3. Controls
 
-- <kbd>Up</kbd>: rotate clockwise
-- <kbd>Left</kbd>: move left
-- <kbd>Right</kbd>: move right
+- <kbd>↑</kbd>: rotate clockwise
+- <kbd>←</kbd>: move left
+- <kbd>→</kbd>: move right
 
 ## 4. Features
 

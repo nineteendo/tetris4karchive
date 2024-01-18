@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <body>
+      <p>q and w rotate</p>
+      <p id='score'>0</p>
+      <div id='board' style='position:absolute;top:80px' ></div>
+  </body>
+</html>
+  <script>
+    var pieceIndex=0
+    nextPiece=()=>{
+      pieceIndex=pieceIndex<pieces.length-1?pieceIndex+1:0
+      return pieces[pieceIndex]
+    }
+    const pieces=[
+    [
+        {x:0,y:-1},
+        {x:0,y:0},
+        {x:1,y:0},
+        {x:-1,y:0},
+      ],
+      [
+        {x:0,y:-2},
+        {x:0,y:-1},
+        {x:0,y:0},
+        {x:0,y:1},
+      ],
+      [
+        {x:1,y:0},
+        {x:0,y:0},
+        {x:2,y:0},
+        {x:0,y:-1},
+      ],
+      [
+        {x:0,y:0},
+        {x:1,y:0},
+        {x:1,y:1},
+        {x:0,y:1}
+      ],
+      [
+        {x:0,y:0},
+        {x:-1,y:0},
+        {x:0,y:1},
+        {x:1,y:1}
+      ],
+    ]
+    const speeds =[1000,800,600,400,300,250,200,150,100,90,80,70,60,50,40,30,20]
+    const boardWidth = 10
+    const boardHeight = 20
+    const pixelSize   = 10
+    const pixelBorder = 0
+    const boardBorder = 5
+    
+    var score = 0
+    var level = 0
+    var fallingBits = []
+
+    const b = document.getElementById('board')
+     piece = {
+      position:{
+        x:boardWidth/2,
+        y:1,
+      },
+      bits:[
+        {x:0,y:-1},
+        {x:0,y:0},
+        {x:1,y:0},
+        {x:-1,y:0},
+      ],
+      reset(){
+        piece.position={x:boardWidth/2,y:1}
+        piece.bits=nextPiece()
+        !piece.coordinates().every((b)=>dom[b.x][b.y]?dom[b.x][b.y].style.background=='red':true) && endGame()
+      },
+      coordinates(){
+        return piece.bits.map((b)=>{
+          return {x:b.x+piece.position.x,y:b.y+piece.position.y}
+        })
+      }
+    }
+    const dom = []
+    for(var x=0;x<boardWidth;x++){
+      var row = []
+      for(var y=0;y<boardHeight;y++){
+        var cell = document.createElement('div')
+        cell.style.cssText='outline:thin solid;height:'+pixelSize+'px;width:'+pixelSize+'px;background:red;position:absolute'
+        cell.style.left= (x*(pixelSize+pixelBorder)+boardBorder) + 'px'
+        cell.style.top = (y*(pixelSize+pixelBorder)+boardBorder) + 'px'
+        row.push(cell)
+        b.appendChild(cell)
+      }
+      dom.push(row)
+    }
+    renderPiece=(color)=>{
+      piece.coordinates().forEach((b)=>dom[b.x][b.y] && (dom[b.x][b.y].style.background=color))
+    }
+    drop=()=>{
+      piece.coordinates().every((p)=>p.y+1<boardHeight) && piece.coordinates().every((p)=>dom[p.x][p.y+1].style.background!='blue') ?
+        movePiece(0,1) : freeze()
+    }
+    strafe=(d)=>{
+      piece.coordinates().every((p)=>p.x+d<boardWidth && p.x+d >=0) && piece.coordinates().every((p)=>dom[p.x+d][p.y].style.background!='blue') ?
+        movePiece(d,0) : null
+    }
+    freeze=()=>{
+      piece.coordinates().forEach((p)=>dom[p.x][p.y].style.background='blue')
+      lookForRows()
+      piece.reset()
+    }
+    lookForRows=()=>{
+      [...dom[0].keys()].filter((i)=>dom.every((c)=>c[i].style.background=='blue')).forEach((r)=>{
+        removeLine(r)
+        compressAbove(r)
+        addPoint()
+      })
+    }
+    compressAbove=(r)=>{
+      // dom.reduce((acc,col,x)=>{return acc.concat(col.map((b,y)=>{return {x:x,y:y}}).filter((b,y)=>y<r && dom[b.x][b.y].style.background=='blue'))},[]).forEach((b)=>dom[b.x][b.y].style.background='red').forEach((b)=>dom[b.x][b.y+1].style.background='blue')
+      var bits = []
+      dom.forEach((x,i)=>{
+        x.forEach((y,j)=>{
+          if(j<=r && dom[i][j].style.background=='blue'){bits.push({x:i,y:j})}
+        })
+      })
+      bits.forEach((b)=>{
+        dom[b.x][b.y].style.background='red'
+      })
+      bits.forEach((b)=>{
+        dom[b.x][b.y+1].style.background='blue'
+      })
+    }
+    removeLine=(r)=>{
+      dom.forEach((x)=>x[r].style.background='red')
+    }
+    changePiece=(x,y)=>{
+      piece.position.x += x
+      piece.position.y += y
+    }
+    movePiece=(x,y)=>{
+        renderPiece('red')
+        changePiece(x,y)
+        renderPiece('yellow')
+    }
+    turn=(d)=>{
+      var newBits = []
+      for(let i=0;i<piece.bits.length;i++){
+        var x = piece.bits[i].x
+        var y = piece.bits[i].y
+        var bit={}
+        if(d==1){
+          bit.x=-y
+          bit.y=x
+        }else{
+          bit.x=y
+          bit.y=-x
+        }
+        newBits.push(bit)
+      }
+      if(newBits.every((p)=>p.x+piece.position.x<boardWidth && p.x+piece.position.x>=0 && p.y+piece.position.y<boardHeight && dom[p.x+piece.position.x][p.y+piece.position.y].style.background!='blue')){
+        renderPiece('red')
+        piece.bits=newBits
+        renderPiece('yellow')
+      }
+    }
+    addPoint=()=>{
+      score++
+      document.getElementById('score').innerText=score
+      score-level*10 > 10 && levelUp()
+    }
+    levelUp=()=>{
+      clearInterval(timer)
+      level++
+      timer = window.setInterval(drop,speeds[level])
+    }
+    endGame=()=>{
+      clearInterval(timer)
+      dom.forEach((row)=>{
+        row.forEach((bit)=>{
+          bit.style.background=='red' && (bit.style.background='black')
+        })
+      })
+    }
+    document.onkeydown = function(e) {
+    switch (e.keyCode) {
+        case 37:strafe(-1);break
+        case 87:turn(1);break
+        case 81:turn(-1);break
+        case 39:strafe(1);break
+        case 40:drop();break
+    }
+};
+  var timer = window.setInterval(drop,1000)
+  </script>
+</html>

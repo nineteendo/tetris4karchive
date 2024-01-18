@@ -4,7 +4,7 @@
 
 - [Back to overview](../README.md)
 - [How to play](#6-how-to-play)
-- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetros105/archive)
+- [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/tetros-v105/archive)
 - [Source code](https://board.flatassembler.net/topic.php?p=211564#211831)
 
 ## 2. Summary
@@ -19,10 +19,10 @@
 ## 3. Controls
 
 - <kbd>Esc</kbd>: restart
-- <kbd>Up</kbd>: rotate counterclockwise
-- <kbd>Left</kbd>: move left
-- <kbd>Down</kbd>: hard drop
-- <kbd>Right</kbd>: move right
+- <kbd>↑</kbd>: rotate counterclockwise
+- <kbd>←</kbd>: move left
+- <kbd>↓</kbd>: hard drop
+- <kbd>→</kbd>: move right
 
 ## 4. Features
 
@@ -39,8 +39,8 @@
     - **Double**: `3 * multiplier`
     - **Triple**: `7 * multiplier`
     - **Tetris**: `15 * multiplier`
-10. **Next queue**: singe piece
-11. **No bugs**: except when booted from USB
+10. **No bugs**: except when booted from USB
+11. **Piece preview**: single piece
 12. **Place points**: `1 * multiplier`
 13. **Random background color**: restart if you can't see the walls
 14. **Restart**

@@ -3,7 +3,7 @@
 ## 1. Links
 
 - [Back to overview](../README.md)
-- [How to play](#5-how-to-play)
+- [How to play](#5-how-to-play-windows-only)
 - [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/binary-tetris-3/archive)
 - [Source code](https://codegolf.stackexchange.com/a/121396/120787)
 
@@ -18,10 +18,10 @@
 
 ## 3. Controls
 
-- <kbd>Up</kbd>, <kbd>Ctrl</kbd>+<kbd>C</kbd>: quit
-- <kbd>Left</kbd>: move left
-- <kbd>Down</kbd>: soft drop
-- <kbd>Right</kbd>: move right
+- <kbd>↑</kbd> or <kbd>Ctrl</kbd>+<kbd>C</kbd>: quit
+- <kbd>←</kbd>: move left
+- <kbd>↓</kbd>: soft drop
+- <kbd>→</kbd>: move right
 
 ## 4. Features
 

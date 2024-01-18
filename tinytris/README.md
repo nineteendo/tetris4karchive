@@ -55,9 +55,9 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 4. Run the command for your operating system:
     - Windows:
         ```shell
-        dosbox -c tinytris.com
+        dosbox -c tinytris
         ```
     - MacOS:
         ```shell
-        /Applications/dosbox.app/Contents/MacOS/DOSBox -c tinytris.com
+        /Applications/dosbox.app/Contents/MacOS/DOSBox -c tinytris
         ```

@@ -18,11 +18,11 @@
 
 ## 3. Controls
 
-- <kbd>Ctrl</kbd>+<kbd>R</kbd>, <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd>, <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
-- <kbd>Left</kbd>: move left
-- <kbd>Down</kbd>: soft drop
-- <kbd>Right</kbd>: move right
+- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>←</kbd>: move left
+- <kbd>↓</kbd>: soft drop
+- <kbd>→</kbd>: move right
 
 ## 4. Features
 

@@ -1,4 +1,4 @@
-# Tetris (unofficial, unknown author)
+# Tetris (unknown author)
 
 ## 1. Links
 
@@ -19,10 +19,10 @@
 ## 3. Controls
 
 - <kbd>Esc</kbd>: quit
-- <kbd>Up</kbd>: rotate counterclockwise
-- <kbd>Left</kbd>: move left
-- <kbd>Down</kbd>: hard drop
-- <kbd>Right</kbd>: move right
+- <kbd>↑</kbd>: rotate counterclockwise
+- <kbd>←</kbd>: move left
+- <kbd>↓</kbd>: hard drop
+- <kbd>→</kbd>: move right
 
 ## 4. Features
 
@@ -40,15 +40,15 @@
 ## 5. How to play
 
 1. [Download the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main)
-2. Move `tetris.com` to `~/dosgames`
-3. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
+2. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
+3. Move `tetris.com` to `~/dosgames`
 4. [Setup AUTOEXEC](https://dosbox.com/wiki/AUTOEXEC)
 5. Run the command for your operating system:
     - Windows:
         ```shell
-        dosbox -c tetris.com
+        dosbox -c tetris
         ```
     - MacOS:
         ```shell
-        /Applications/dosbox.app/Contents/MacOS/DOSBox -c tetris.com
+        /Applications/dosbox.app/Contents/MacOS/DOSBox -c tetris
         ```

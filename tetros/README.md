@@ -19,9 +19,9 @@
 
 ## 3. Controls
 
-- <kbd>Up</kbd>: rotate counterclockwise
-- <kbd>Left</kbd>: move left
-- <kbd>Right</kbd>: move right
+- <kbd>↑</kbd>: rotate counterclockwise
+- <kbd>←</kbd>: move left
+- <kbd>→</kbd>: move right
 - <kbd>Any Key</kbd>: hard drop
 
 ## 4. Features

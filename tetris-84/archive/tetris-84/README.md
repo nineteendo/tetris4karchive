@@ -15,15 +15,17 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 
 ## 3. Controls
 
+- <kbd>On</kbd>: quit
+
 ### 3.1. Game
 
 - <kbd>Window</kbd>: hold piece
 - <kbd>Trace</kbd>: pause
 - <kbd>2nd</kbd>: rotate clockwise
-- <kbd>Left</kbd>: move left
-- <kbd>Right</kbd>: move right
+- <kbd>←</kbd>: move left
+- <kbd>→</kbd>: move right
 - <kbd>Alpha</kbd>: rotate counterclockwise
-- <kbd>Down</kbd>: soft drop
+- <kbd>↓</kbd>: soft drop
 
 ### 3.2. Pause menu
 
@@ -36,28 +38,28 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 1. **All tetrominoes**
 2. **Alternative rotation**
 3. **Animations**
-4. **Drop points**: `1 * cell`
+4. **Drop points**: `1 * fall_height`
 5. **Drought protection**: pieces are drawn from bags, except the first
-6. **Easter eggs**
+6. **Easter eggs**: hold queue starts with a long bar
 7. **Faster levels**: `speed = min(level, 9)`
 8. **Game over detection**
 9. **Game over screen**: fill animation, then pause
 10. **Gravity**
 11. **Height selection**: start with height 0 - 14
-12. **Highscores**: saves current score
-13. **Hold queue**: swap with next queue, indicated with `.`
+12. **Highscores**: top 3, saves current score
+13. **Hold piece**: swap with next piece, indicated with `.`
 14. **Horizontal movement**
 15. **Level score multiplier**: `level + 1`
 16. **Level selection**: start from level 0 - 9
-17. **Line clearing**
+17. **Line clearing**: animation
 18. **Line clear points**:
     - **Single**: `40 * multiplier`
     - **Double**: `100 * multiplier`
     - **Triple**: `300 * multiplier`
     - **Tetris**: `1200 * multiplier`
-19. **Next queue**: singe piece
-20. **No bugs**
-21. **Pause**: menu with restart and quit
+19. **No bugs**
+20. **Pause**: menu with restart and quit
+21. **Piece preview**: single piece
 22. **Place points**: 1
 23. **Quit**: shows stack
 24. **Restart**

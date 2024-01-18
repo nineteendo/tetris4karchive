@@ -13,26 +13,26 @@
 - **Main size**: 1,4 KB
 - **Extra size**: 0 B
 - **Total size**: 1,4 KB
-- **Feature count**: 16
-- **Bytes per feature**: 85 B
+- **Feature count**: 17
+- **Bytes per feature**: 80 B
 
 ## 3. Controls
 
 ## 3.1. Settings screen
 
 - <kbd>Enter</kbd>: start game
-- <kbd>Up</kbd>: increase speed
-- <kbd>Left</kbd>: counterclockwise rotation
-- <kbd>Down</kbd>: decrease speed
-- <kbd>Right</kbd>: clockwise rotation
+- <kbd>↑</kbd>: increase speed
+- <kbd>←</kbd>: counterclockwise rotation
+- <kbd>↓</kbd>: decrease speed
+- <kbd>→</kbd>: clockwise rotation
 
 ### 3.2. Game
 
 - <kbd>Esc</kbd>: quit
-- <kbd>Up</kbd>: rotate
-- <kbd>Left</kbd>: move left
-- <kbd>Down</kbd>: soft drop
-- <kbd>Right</kbd>: move right
+- <kbd>↑</kbd>: rotate
+- <kbd>←</kbd>: move left
+- <kbd>↓</kbd>: soft drop
+- <kbd>→</kbd>: move right
 
 ### 3.2. Game over screen
 
@@ -54,12 +54,13 @@
     - **Double**: 3
     - **Triple**: 5
     - **Tetris**: 15
-10. **Next queue**: single piece
+10. **Piece preview**: single piece
 11. **Quit**
 12. **Retry**
 13. **Rotation**
 14. **Rotation selection**: clockwise or counterclockwise rotation
 15. **Soft drop**
+16. **Title screen**
 
 ## 5. Bugs
 
@@ -68,15 +69,15 @@
 ## 6. How to play
 
 1. [Download the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main)
-2. Move `Tetris.com` to `~/dosgames`
-3. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
+2. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)
+3. Move `Tetris.com` to `~/dosgames`
 4. [Setup AUTOEXEC](https://dosbox.com/wiki/AUTOEXEC)
 5. Run the command for your operating system:
     - Windows:
         ```shell
-        dosbox -c Tetris.com
+        dosbox -c Tetris
         ```
     - MacOS:
         ```shell
-        /Applications/dosbox.app/Contents/MacOS/DOSBox -c Tetris.com
+        /Applications/dosbox.app/Contents/MacOS/DOSBox -c Tetris
         ```

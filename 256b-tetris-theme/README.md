@@ -18,8 +18,8 @@
 
 ## 3. Controls
 
-- <kbd>Ctrl</kbd>+<kbd>R</kbd>, <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd>, <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>Cmd</kbd>+<kbd>R</kbd>: restart
+- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>Cmd</kbd>+<kbd>Q</kbd>: quit
 - <kbd>Left-Click</kbd>: start music
 
 ## 4. Features
