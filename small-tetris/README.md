@@ -67,7 +67,7 @@ options:
 15. **Pause**: pause emulation
 16. **Piece preview**: single piece
 17. **Piece preview selection**: piece preview or not
-18. **Place points**:
+18. **Placement points**:
     - **Piece preview**: `1 * level`
     - **No piece preview**: `2 * level`
 19. **Retry**

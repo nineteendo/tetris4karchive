@@ -19,7 +19,7 @@
 ## 3. Controls
 
 - <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>W</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>W</kbd>: quit
 
 ### 3.1. Title screen
 
@@ -50,7 +50,7 @@
     - **Triple**: 3
     - **Tetris**: 4
 8. **No bugs**
-9. **Quit**: quit browser
+9. **Quit**: close tab
 10. **Restart**: refresh page
 11. **Retry**
 12. **Rotation**

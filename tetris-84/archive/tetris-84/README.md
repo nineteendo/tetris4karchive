@@ -45,35 +45,36 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 2. **Alternative rotation**
 3. **Animations**
 4. **Drop points**: `1 * fall_height`
-5. **Drought protection**: pieces are drawn from bags, except the first
+5. **Drought prevention**: pieces are drawn from bags, except the first
 6. **Easter eggs**: hold queue starts with a long bar
 7. **Faster levels**: `speed = min(level, 9)`
 8. **Game over detection**
 9. **Game over screen**: fill animation, then pause
 10. **Gravity**
-11. **Height selection**: start with height 0 - 14
-12. **Highscores**: top 3, saves current score
-13. **Hold piece**: swap with next piece, indicated with `.`
-14. **Horizontal movement**
-15. **Level score multiplier**: `level + 1`
-16. **Level selection**: start from level 0 - 9
-17. **Line clearing**: animation
-18. **Line clear points**:
+11. **Highscores**: top 3, saves current score
+12. **Hold piece**: swap with next piece, indicated with `.`
+13. **Horizontal movement**
+14. **Level score multiplier**: `level + 1`
+15. **Level selection**: start from level 0 - 9
+16. **Line clearing**: animation
+17. **Line clear points**:
     - **Single**: `40 * multiplier`
     - **Double**: `100 * multiplier`
     - **Triple**: `300 * multiplier`
     - **Tetris**: `1200 * multiplier`
-19. **No bugs**
+18. **No bugs**
+19. **Obstacle height selection**: start with height 0 - 14
 20. **Pause**: menu with restart and quit
 21. **Piece preview**: single piece
-22. **Place points**: 1
-23. **Quit**: shows stack
-24. **Restart**
-25. **Retry**
-26. **Rotation**
-27. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
-28. **Soft drop**
-29. **Visible center of rotation**: indicated with `+`
+22. **Placement points**: 1
+23. **Placement transition**: hide center of rotation
+24. **Quit**: shows stack
+25. **Restart**
+26. **Retry**
+27. **Rotation**
+28. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
+29. **Soft drop**
+30. **Visible center of rotation**: indicated with `+`
 
 ## 6. Challenges
 

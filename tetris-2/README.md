@@ -44,7 +44,7 @@
     - **Triple**: 36
     - **Tetris**: 52
 13. **Piece preview**: single piece
-14. **Place points**: 1
+14. **Placement points**: 1
 15. **Quit**
 16. **Rotation**
 17. **Sleep mode**

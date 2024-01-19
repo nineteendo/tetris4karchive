@@ -13,15 +13,15 @@
 - **Main size**: 2,7 KB
 - **Extra size**: 100 B
 - **Total size**: 2,8 KB
-- **Feature count**: 15
-- **Bytes per feature**: 181 B
+- **Feature count**: 16
+- **Bytes per feature**: 169 B
 
 ## 3. Controls
 
 - <kbd>Q</kbd>: rotate counterclockwise
 - <kbd>W</kbd>: rotate clockwise
 - <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>W</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>W</kbd>: quit
 - <kbd>←</kbd>: move left
 - <kbd>↓</kbd>: soft drop
 - <kbd>→</kbd>: move right
@@ -41,9 +41,10 @@
     - **Triple**: 3
     - **Tetris**: 4
 9. **No bugs**
-10. **Quit**: quit browser
-11. **Restart**: refresh page
-12. **Retry**: refresh page
-13. **Rotation**
-14. **Sleep mode**: from OS
-15. **Soft drop**
+10. **Placement transition**: turns blue
+11. **Quit**: close tab
+12. **Restart**: refresh page
+13. **Retry**: refresh page
+14. **Rotation**
+15. **Sleep mode**: from OS
+16. **Soft drop**

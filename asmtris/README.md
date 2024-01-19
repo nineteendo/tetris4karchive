@@ -14,8 +14,8 @@
 - **Main size**: 1,9 KB
 - **Extra size**: 0 B
 - **Total size**: 1,9 KB
-- **Feature count**: 15
-- **Bytes per feature**: 126 B
+- **Feature count**: 16
+- **Bytes per feature**: 119 B
 
 ## 3. Controls
 
@@ -36,7 +36,7 @@
 1. **All tetrominoes**
 2. **Animations**
 3. **Colored pieces**
-4. **Controls instructions**
+4. **Controls guide**
 5. **Game over detection**
 6. **Game over screen**: game over text
 7. **Gravity**
@@ -45,9 +45,10 @@
 10. **No bugs**
 11. **Pause**: pause emulation
 12. **Piece preview**: single piece
-13. **Quit**
-14. **Rotation**
-15. **Smooth falling**
+13. **Placement transition**
+14. **Quit**
+15. **Rotation**
+16. **Smooth gravity**
 
 ## 5. How to play
 

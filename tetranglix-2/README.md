@@ -41,7 +41,7 @@
     - **Triple**: 192
 6. **Pause**: pause emulation
 7. **Rotation**
-8. **Time points**: `1 * frame`
+8. **Survival time points**: `1 * frame`
 
 ## 5. Bugs
 

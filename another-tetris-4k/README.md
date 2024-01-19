@@ -60,7 +60,7 @@
 14. **Pause**
 15. **Piece preview**: single piece
 16. **Piece statistics**
-17. **Place points**: 10
+17. **Placement points**: 10
 18. **Quit**: quit java
 19. **Retry**
 20. **Rotation**

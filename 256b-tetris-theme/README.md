@@ -19,13 +19,13 @@
 ## 3. Controls
 
 - <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>W</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>W</kbd>: quit
 - <kbd>Left-Click</kbd>: start music
 
 ## 4. Features
 
 1. **Music**: A-Type
-2. **Quit**: quit browser
+2. **Quit**: close tab
 3. **Restart**: refresh page
 4. **Sleep mode**: from OS
 

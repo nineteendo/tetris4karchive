@@ -49,7 +49,7 @@
 10. **No bugs**: except when booted from USB
 11. **Pause**: pause emulation (emulator only)
 12. **Piece preview**: single piece
-13. **Place points**: `1 * multiplier`
+13. **Placement points**: `1 * multiplier`
 14. **Random background color**: restart if you can't see the walls
 15. **Restart**
 16. **Retry**

@@ -19,7 +19,7 @@
 ## 3. Controls
 
 - <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>W</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>W</kbd>: quit
 - <kbd>←</kbd>: move left
 - <kbd>↓</kbd>: soft drop
 - <kbd>→</kbd>: move right
@@ -29,7 +29,7 @@
 1. **Gravity**
 2. **Horizontal movement**
 3. **Line clearing**
-4. **Quit**: quit browser
+4. **Quit**: close tab
 5. **Restart**: refresh page
 6. **Retry**: refresh page
 7. **Sleep mode**: from OS

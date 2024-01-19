@@ -65,7 +65,7 @@
 12. **Quit**
 13. **Retry**
 14. **Rotation**
-15. **Rotation selection**: clockwise or counterclockwise rotation
+15. **Rotation direction selection**: clockwise or counterclockwise
 16. **Soft drop**
 17. **Title screen**
 

@@ -44,7 +44,7 @@
     - **Tetris**: 256
 8. **Pause**: pause emulation
 9. **Rotation**
-10. **Time points**: `1 * frame`
+10. **Survival time points**: `1 * frame`
 
 ## 5. Bugs
 

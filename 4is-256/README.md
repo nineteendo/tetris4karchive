@@ -1,4 +1,4 @@
-# 4is 256 by Řrřola
+# 4is 256 by Jan Kadlec
 
 ## 1. Links
 
@@ -13,8 +13,8 @@
 - **Main size**: 256 B
 - **Extra size**: 0 B
 - **Total size**: 256 B
-- **Feature count**: 13
-- **Bytes per feature**: 20 B
+- **Feature count**: 15
+- **Bytes per feature**: 17 B
 
 ## 3. Controls
 
@@ -36,19 +36,21 @@
 2. **Animations**
 3. **Colored pieces**
 4. **Drop points**: `1 * fall_height`
-5. **Game over detection**
-6. **Gravity**
-7. **Horizontal movement**
-8. **Line clearing**
-9. **Line clear points**:
+5. **Faster levels**: `speed = log2(lines)`
+6. **Game over detection**
+7. **Gravity**
+8. **Horizontal movement**
+9. **Line clearing**
+10. **Line clear points**:
     - **Single**: 32
     - **Double**: 96
     - **Triple**: 160
     - **Tetris**: 224
-10. **No bugs**
-11. **Pause**: pause emulation
-12. **Rotation**
-13. **Soft drop**
+11. **No bugs**
+12. **Pause**: pause emulation
+13. **Placement transition**: increase brightness
+14. **Rotation**
+15. **Soft drop**
 
 ## 5. How to play
 

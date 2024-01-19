@@ -23,7 +23,7 @@
 - <kbd>K</kbd> or <kbd>↑</kbd>: rotate counterclockwise
 - <kbd>L</kbd> or <kbd>→</kbd>: move right
 - <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>W</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>W</kbd>: quit
 - <kbd>Space</kbd>: hard drop
 
 ## 4. Features
@@ -43,8 +43,8 @@
     - **Tetris**: 135
 10. **No bugs**
 11. **Piece preview**: single piece
-12. **Place points**: 9
-13. **Quit**: quit browser
+12. **Placement points**: 9
+13. **Quit**: close tab
 14. **Restart**: refresh page
 15. **Retry**: refresh page
 16. **Rotation**

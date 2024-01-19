@@ -38,9 +38,9 @@
 ### 4.2. Pause menu
 
 - <kbd>Trace</kbd>: unpause
+- <kbd>2nd</kbd> or <kbd>↵ Enter</kbd>: choose selected option
 - <kbd>↑</kbd>: select previous option
 - <kbd>↓</kbd>: select next option
-- <kbd>↵ Enter</kbd>: choose selected option
 
 ### 4.3. Score menu
 

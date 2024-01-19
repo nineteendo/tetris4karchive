@@ -19,7 +19,7 @@
 ## 3. Controls
 
 - <kbd>Ctrl</kbd>+<kbd>R</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>R</kbd>: restart
-- <kbd>Alt</kbd>+<kbd>F4</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>Q</kbd>: quit
+- <kbd>Ctrl</kbd>+<kbd>W</kbd> or <kbd>⌘ Cmd</kbd>+<kbd>W</kbd>: quit
 
 ## 3.1. Game
 
@@ -42,7 +42,7 @@
 2. **Alternative rotation**
 3. **Animations**
 4. **Colored pieces**
-6. **Drought protection**: pieces are drawn from bags
+6. **Drought prevention**: pieces are drawn from bags
 7. **Easter eggs**: konami code starts the game
 8. **Faster levels**: `speed = min(level, 18)`
 9. **Game over detection**

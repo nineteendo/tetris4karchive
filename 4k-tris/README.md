@@ -60,10 +60,10 @@
 19. **SFX**
 20. **Shadows**
 21. **Sleep mode**: from OS
-22. **Smooth falling**
+22. **Smooth gravity**
 
 ## 5. How to play
 
 1. [Download the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main)
 2. [Download Java](https://java.com/download)
-3. Double click `AnotherTetris4K.jar`
+3. Double click `4ktris-1.0.jar`
