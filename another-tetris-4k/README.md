@@ -47,7 +47,7 @@
 5. **Game over screen**: game over text
 6. **Gravity**
 7. **Hard drop**
-8. **Highscores**
+8. **High scores**
 9. **Horizontal movement**
 10. **Line clearing**
 11. **Line clear points**:

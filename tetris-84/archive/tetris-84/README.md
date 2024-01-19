@@ -51,7 +51,7 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 8. **Game over detection**
 9. **Game over screen**: fill animation, then pause
 10. **Gravity**
-11. **Highscores**: top 3, saves current score
+11. **High scores**: top 3, saves current score
 12. **Hold piece**: swap with next piece, indicated with `.`
 13. **Horizontal movement**
 14. **Level score multiplier**: `level + 1`
@@ -78,7 +78,7 @@ Original version by nitacku: https://ticalc.org/archives/files/fileinfo/371/3718
 
 ## 6. Challenges
 
-Here are some challenges, or try beating my highscore 562,499:
+Here are some challenges, or try beating my high score 562,499:
 
 1. *Single*: Clear a line
 2. *Double*: Clear 2+ lines at once

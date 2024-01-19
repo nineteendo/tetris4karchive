@@ -20,7 +20,7 @@
 
 - **resume**: unpause
 - **new**: start new game
-- **scores**: view highscores
+- **scores**: view high scores
 - **quit**
 
 ## 4. Controls
@@ -54,7 +54,7 @@
 4. **Game over detection**
 5. **Game over screen**: animation
 6. **Gravity**
-7. **Highscores**: top 3
+7. **High scores**: top 3
 8. **Horizontal movement**
 9. **Line clearing**: animation
 10. **Line clear points**:
@@ -62,7 +62,7 @@
     - **Double**: 3000
     - **Triple**: 6000
     - **Tetris**: 10000
-11. **Pause**: menu with restart, highscores and quit
+11. **Pause**: menu with restart, high scores and quit
 12. **Piece preview**: single piece
 13. **Quit**
 14. **Restart**
@@ -75,7 +75,7 @@
 1. If you pause at the wrong time, you place the piece in the air
 2. Lines come down from the ceiling if you clear a line after placing a piece in the top 2 rows
 3. The game crashes at level 25
-4. The game over animation doesn't play if you hold <kbd>↑</kbd>, <kbd>←</kbd>, <kbd>↓</kbd> or <kbd>→</kbd>
+4. The game over animation doesn't play if you hold <kbd>↑</kbd> or <kbd>↓</kbd>
 5. You don't fall if you hold <kbd>←</kbd> or <kbd>→</kbd>
 
 ## 7. How to play

@@ -58,7 +58,7 @@ options:
 6. **Game over screen**: game over text
 7. **Gravity**
 8. **Hard drop**
-9. **Highscores**: default 39996
+9. **High scores**: default 39996
 10. **Horizontal movement**
 11. **Level score multiplier**
 12. **Level selection**: start from level 1 - 17

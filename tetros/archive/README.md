@@ -36,7 +36,7 @@ After that you should be able to boot the stick to play TetrOS.
 * Nice playing field.
 
 ## Features missing due to size limits
-* Scores and highscores.
+* Scores and high scores.
 * Intro.
 * Game over message and restart without rebooting.
 * Show next brick.
