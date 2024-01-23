@@ -39,7 +39,7 @@ Here is a spreadsheet with more information (1 KB = 1000 B): [tetris-4k-archive.
 25. [**Tetris by Andrew March**](tetris-5/README.md): 169 B
 26. [**Tetris by mniip**](tetris-4/README.md): 170 B
 27. [**4K-tris by Petr Blahos**](4k-tris/README.md): 178 B
-28. [**Tetris 4K by wiesi**](tetris-4k/README.md): 191 B
+28. [**Tetris 4K by wiesi**](tetris-4k/README.md): 182 B
 
 ### 2.2. Main size
 
@@ -74,12 +74,12 @@ Here is a spreadsheet with more information (1 KB = 1000 B): [tetris-4k-archive.
 
 ### 2.3. Feature count
 
-1. [**Tetris-84 by Nice Zombies**](tetris-84/README.md): 31
+1. [**Tetris-84 by Nice Zombies**](tetris-84/README.md): 32
 2. [**Tis by Thomas ten Cate**](tis/README.md): 31
 3. [**Another Tetris 4K by flub**](another-tetris-4k/README.md): 26
 4. [**4K-tris by Petr Blahos**](4k-tris/README.md): 23
-5. [**Small Tetris by Tore Bastiansen**](small-tetris/README.md): 21
-6. [**Tetris 4K by wiesi**](tetris-4k/README.md): 21
+5. [**Tetris 4K by wiesi**](tetris-4k/README.md): 22
+6. [**Small Tetris by Tore Bastiansen**](small-tetris/README.md): 21
 7. [**1½KB Tetris by Joris Zwart**](1.5kb-tetris/README.md): 18
 8. [**1.32KB Tetris by Vzub Pnukem**](1.32kb-tetris/README.md): 18
 9. [**Tetris by nitacku**](tetris-3/README.md): 18
