@@ -47,7 +47,7 @@
 
 1. Not all tetromioes are drawn
 2. The game can't keep up with keyboard input
-3. [If you die by rotating the screen isn't updated](bugs/bug.mp4)
+3. [If you die by rotating the screen isn't updated](https://nineteendo.github.io/tetris4karchive/tetranglix-2/bugs/bug.mp4)
 
 ## 6. How to play
 
