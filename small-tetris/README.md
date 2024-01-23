@@ -3,7 +3,7 @@
 ## 1. Links
 
 - [Back to overview](../README.md)
-- [How to play](#6-how-to-play)
+- [How to play](#7-how-to-play)
 - [Archived files](https://github.com/nineteendo/tetris4karchive/tree/main/small-tetris/archive)
 - [Source code](https://playdosgames.com/online/smalltetris)
 
@@ -13,8 +13,8 @@
 - **Main size**: 2,0 KB
 - **Extra size**: 0 B
 - **Total size**: 2,0 KB
-- **Feature count**: 22
-- **Bytes per feature**: 93 B
+- **Feature count**: 21
+- **Bytes per feature**: 98 B
 
 ## 3. Command line arguments
 
@@ -58,24 +58,27 @@ options:
 6. **Game over screen**: game over text
 7. **Gravity**
 8. **Hard drop**
-9. **High scores**: default 39996
-10. **Horizontal movement**
-11. **Level score multiplier**
-12. **Level selection**: start from level 1 - 17
-13. **Line clearing**
-14. **No bugs**
-15. **Pause**: pause emulation
-16. **Piece preview**: single piece
-17. **Piece preview selection**: piece preview or not
-18. **Placement points**:
-    - **Piece preview**: `1 * level`
-    - **No piece preview**: `2 * level`
-19. **Retry**
-20. **Rotation**
-21. **Skip level**
-22. **Toggleable piece preview**
+9. **Horizontal movement**
+10. **Level score multiplier**
+11. **Level selection**: start from level 1 - 17
+12. **Line clearing**
+13. **No bugs**
+14. **Pause**: pause emulation
+15. **Piece preview**: single piece
+16. **Piece preview selection**: piece preview or not
+17. **Placement points**:
+    - **With piece preview**: `1 * level`
+    - **Without piece preview**: `2 * level`
+18. **Retry**
+19. **Rotation**
+20. **Skip level**
+21. **Toggleable piece preview**
 
-## 6. How to play
+## 6. Notes
+
+- Because beating the default high score before the kill screen isn't possible, it isn't counted as a feature
+
+## 7. How to play
 
 1. [Download the archive](https://codeload.github.com/nineteendo/tetris4karchive/zip/refs/heads/main)
 2. [Download DOSBox](https://sourceforge.net/projects/dosbox/files/latest/download)

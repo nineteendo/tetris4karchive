@@ -13,8 +13,8 @@
 - **Main size**: 2,8 KB
 - **Extra size**: 0 B
 - **Total size**: 2,8 KB
-- **Feature count**: 17
-- **Bytes per feature**: 166 B
+- **Feature count**: 18
+- **Bytes per feature**: 157 B
 
 ## 3. Pause menu options
 
@@ -54,7 +54,7 @@
 4. **Game over detection**
 5. **Game over screen**: animation
 6. **Gravity**
-7. **High scores**: top 3
+7. **High scores**: top 3, in sub menu
 8. **Horizontal movement**
 9. **Line clearing**: animation
 10. **Line clear points**:
@@ -63,12 +63,13 @@
     - **Triple**: 6000
     - **Tetris**: 10000
 11. **Pause**: menu with restart, high scores and quit
-12. **Piece preview**: single piece
-13. **Quit**
-14. **Restart**
-15. **Retry**
-16. **Rotation**
-17. **Soft drop**
+12. **Persistent high scores**: from OS
+13. **Piece preview**: single piece
+14. **Quit**
+15. **Restart**
+16. **Retry**
+17. **Rotation**
+18. **Soft drop**
 
 ## 6. Bugs
 

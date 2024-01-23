@@ -13,8 +13,8 @@
 - **Main size**: 4,0 KB
 - **Extra size**: 0 B
 - **Total size**: 4,0 KB
-- **Feature count**: 21
-- **Bytes per feature**: 191 B
+- **Feature count**: 22
+- **Bytes per feature**: 182 B
 
 ## 4. Controls
 
@@ -53,14 +53,15 @@
     - **Tetris**: 10
 12. **No bugs**
 13. **Pause**
-14. **Piece preview**: single piece
-15. **Quit**
-16. **Restart**
-17. **Retry**
-18. **Rotation**
-19. **Sleep mode**: from OS
-20. **Soft drop**
-21. **Title screen**
+14. **Persistent high scores**
+15. **Piece preview**: single piece
+16. **Quit**
+17. **Restart**
+18. **Retry**
+19. **Rotation**
+20. **Sleep mode**: from OS
+21. **Soft drop**
+22. **Title screen**
 
 ## 5. How to play (Windows only)
 
