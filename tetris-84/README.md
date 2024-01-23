@@ -13,8 +13,8 @@
 - **Main size**: 1,5 KB
 - **Extra size**: 91 B
 - **Total size**: 1,6 KB
-- **Feature count**: 29
-- **Bytes per feature**: 50 B
+- **Feature count**: 31
+- **Bytes per feature**: 47 B
 
 ## 3. Pause menu options
 
@@ -66,18 +66,19 @@
     - **Triple**: `300 * multiplier`
     - **Tetris**: `1200 * multiplier`
 18. **No bugs**
-19. **Obstacle height selection**: start with height 0 - 14
-20. **Pause**: menu with restart and quit
-21. **Piece preview**: single piece
-22. **Placement points**: 1
-23. **Placement transition**: hide center of rotation
-24. **Quit**: shows stack
-25. **Restart**
-26. **Retry**
-27. **Rotation**
-28. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
-29. **Soft drop**
-30. **Visible center of rotation**: indicated with `+`
+19. **No ceiling**
+20. **Obstacle height selection**: start with height 0 - 14
+21. **Pause**: menu with restart and quit
+22. **Piece preview**: single piece
+23. **Placement points**: 1
+24. **Placement transition**: hide center of rotation
+25. **Quit**: shows stack
+26. **Restart**
+27. **Retry**
+28. **Rotation**
+29. **Sleep mode**: activates after 1000 ticks of inactivity on pause screen
+30. **Soft drop**
+31. **Visible center of rotation**: indicated with `+`
 
 ## 6. How to play
 

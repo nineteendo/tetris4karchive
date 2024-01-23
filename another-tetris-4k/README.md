@@ -13,8 +13,8 @@
 - **Main size**: 4,0 KB
 - **Extra size**: 0 B
 - **Total size**: 4,0 KB
-- **Feature count**: 25
-- **Bytes per feature**: 160 B
+- **Feature count**: 26
+- **Bytes per feature**: 154 B
 
 ## 3. Controls
 
@@ -57,18 +57,19 @@
     - **Tetris**: 500
 12. **Music**: A-Type
 13. **No bugs**
-14. **Pause**
-15. **Piece preview**: single piece
-16. **Piece statistics**
-17. **Placement points**: 10
-18. **Quit**: quit java
-19. **Retry**
-20. **Rotation**
-21. **Sleep mode**: from OS
-22. **Soft drop**
-23. **Title screen**
-24. **Toggleable music**
-25. **Wall kicks**
+14. **No ceiling**
+15. **Pause**
+16. **Piece preview**: single piece
+17. **Piece statistics**
+18. **Placement points**: 10
+19. **Quit**: quit java
+20. **Retry**
+21. **Rotation**
+22. **Sleep mode**: from OS
+23. **Soft drop**
+24. **Title screen**
+25. **Toggleable music**
+26. **Wall kicks**
 
 ## 5. How to play
 

@@ -13,8 +13,8 @@
 - **Main size**: 256 B
 - **Extra size**: 0 B
 - **Total size**: 256 B
-- **Feature count**: 15
-- **Bytes per feature**: 17 B
+- **Feature count**: 16
+- **Bytes per feature**: 16 B
 
 ## 3. Controls
 
@@ -47,10 +47,11 @@
     - **Triple**: 160
     - **Tetris**: 224
 11. **No bugs**
-12. **Pause**: pause emulation
-13. **Placement transition**: increase brightness
-14. **Rotation**
-15. **Soft drop**
+12. **No ceiling**
+13. **Pause**: pause emulation
+14. **Placement transition**: increase brightness
+15. **Rotation**
+16. **Soft drop**
 
 ## 5. How to play
 

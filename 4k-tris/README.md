@@ -13,8 +13,8 @@
 - **Main size**: 4,1 KB
 - **Extra size**: 0 B
 - **Total size**: 4,1 KB
-- **Feature count**: 22
-- **Bytes per feature**: 186 B
+- **Feature count**: 23
+- **Bytes per feature**: 178 B
 
 ## 3. Controls
 
@@ -53,14 +53,15 @@
     - **Triple**: `3 * level`
     - **Tetris**: `4 * level`
 14. **No bugs**
-15. **Piece preview**: single piece
-16. **Quit**: quit java
-17. **Retry**
-18. **Rotation**
-19. **SFX**
-20. **Shadows**
-21. **Sleep mode**: from OS
-22. **Smooth gravity**
+15. **No ceiling**
+16. **Piece preview**: single piece
+17. **Quit**: quit java
+18. **Retry**
+19. **Rotation**
+20. **SFX**
+21. **Shadows**
+22. **Sleep mode**: from OS
+23. **Smooth gravity**
 
 ## 5. How to play
 

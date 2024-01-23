@@ -13,8 +13,8 @@
 - **Main size**: 2,9 KB
 - **Extra size**: 0 B
 - **Total size**: 2,9 KB
-- **Feature count**: 16
-- **Bytes per feature**: 180 B
+- **Feature count**: 17
+- **Bytes per feature**: 170 B
 
 ## 3. Controls
 
@@ -41,11 +41,12 @@
     - **Triple**: 9
     - **Tetris**: 16
 11. **No bugs**
-12. **Piece preview**: single piece
-13. **Quit**: terminate program
-14. **Retry**: automatic
-15. **Rotation**
-16. **Sleep mode**: from OS
+12. **No ceiling**
+13. **Piece preview**: single piece
+14. **Quit**: terminate program
+15. **Retry**: automatic
+16. **Rotation**
+17. **Sleep mode**: from OS
 
 ## 5. How to play (MacOS only)
 

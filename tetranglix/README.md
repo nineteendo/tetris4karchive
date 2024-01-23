@@ -49,7 +49,8 @@
 ## 5. Bugs
 
 1. The game can't keep up with keyboard input
-2. Pressing <kbd>Esc</kbd> resets the score on QEMU
+2. [If you die by rotating the screen isn't updated](bugs/bug.mp4)
+3. Pressing <kbd>Esc</kbd> resets the score on QEMU
 
 ## 6. How to play
 

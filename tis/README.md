@@ -13,8 +13,8 @@
 - **Main size**: 4,0 KB
 - **Extra size**: 1,0 KB
 - **Total size**: 5,0 KB
-- **Feature count**: 30
-- **Bytes per feature**: 134 B
+- **Feature count**: 31
+- **Bytes per feature**: 130 B
 
 ## 3. Controls
 
@@ -61,13 +61,14 @@
 18. **Lock delay**: 1 second
 19. **Music**: A-Type
 20. **No bugs**
-21. **Piece preview**: single piece
-22. **Quit**
-23. **Restart**: refresh page
-24. **Retry**: refresh page
-25. **Rotation**: sound effect
-26. **SFX**
-27. **Sleep mode**: from OS
-28. **Soft drop**
-29. **Toggleable music**
-30. **Wall kicks**
+21. **No ceiling**
+22. **Piece preview**: single piece
+23. **Quit**
+24. **Restart**: refresh page
+25. **Retry**: refresh page
+26. **Rotation**: sound effect
+27. **SFX**
+28. **Sleep mode**: from OS
+29. **Soft drop**
+30. **Toggleable music**
+31. **Wall kicks**
