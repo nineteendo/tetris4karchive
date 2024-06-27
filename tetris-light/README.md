@@ -39,21 +39,21 @@
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Game over detection**
-3. **Game over screen**: game over text
-4. **Gravity**
-5. **Horizontal movement**
-6. **Line clearing**
-7. **Line clear points**:
+2. **Drop**: soft drop
+3. **Game over detection**
+4. **Game over screen**: game over text
+5. **Gravity**
+6. **Horizontal movement**
+7. **Line clearing**
+8. **Line clear points**:
     - **Single**: 1
     - **Double**: 2
     - **Triple**: 3
     - **Tetris**: 4
-8. **No bugs**
-9. **Quit**: close tab
-10. **Restart**: refresh page
-11. **Retry**
-12. **Rotation**
-13. **Sleep mode**: from OS
-14. **Soft drop**
+9. **No bugs**
+10. **Quit**: close tab
+11. **Restart**: refresh page
+12. **Retry**
+13. **Rotation**
+14. **Sleep mode**: from OS
 15. **Title screen**

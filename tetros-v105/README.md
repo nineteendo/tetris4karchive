@@ -34,10 +34,10 @@
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Faster levels**: `speed = points / 100 % 4`
-3. **Game over detection**
-4. **Gravity**
-5. **Hard drop**: 1 frame lock
+2. **Drop**: hard drop, 1 frame lock
+3. **Faster levels**: `speed = points / 100 % 4`
+4. **Game over detection**
+5. **Gravity**
 6. **Height score multiplier**: `1 + height / 2`
 7. **Horizontal movement**
 8. **Line clearing**

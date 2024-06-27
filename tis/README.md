@@ -39,36 +39,37 @@
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Alternative rotation**
-3. **Animations**
-4. **Colored pieces**
-6. **Drought prevention**: pieces are drawn from bags
-7. **Easter eggs**: konami code starts the game
-8. **Faster levels**: `speed = min(level, 18)`
-9. **Game over detection**
-10. **Game over screen**: fill animation
-11. **Ghost piece**
-12. **Gravity**
-13. **Hard drop**
-14. **Horizontal movement**
-15. **Level score multiplier**
-16. **Line clearing**: flash animation
-17. **Line clear points**:
+2. **Alternative drop**
+3. **Alternative rotation**
+4. **Animations**
+5. **Colored pieces**
+6. **Controls guide**
+7. **Drop**
+8. **Drought prevention**: pieces are drawn from bags
+9. **Easter eggs**: konami code starts the game
+10. **Faster levels**: `speed = min(level, 18)`
+11. **Game over detection**
+12. **Game over screen**: fill animation
+13. **Ghost piece**
+14. **Gravity**
+15. **Horizontal movement**
+16. **Level score multiplier**
+17. **Line clearing**: flash animation
+18. **Line clear points**:
     - **Single**: `100 * level`
     - **Double**: `300 * level`
     - **Triple**: `500 * level`
     - **Tetris**: `800 * level`
-18. **Lock delay**: 1 second
-19. **Music**: A-Type
-20. **No bugs**
-21. **No ceiling**
-22. **Piece preview**: single piece
-23. **Quit**
-24. **Restart**: refresh page
-25. **Retry**: refresh page
-26. **Rotation**: sound effect
-27. **SFX**
-28. **Sleep mode**: from OS
-29. **Soft drop**
+19. **Lock delay**: 1 second
+20. **Music**: A-Type
+21. **No bugs**
+22. **No ceiling**
+23. **Piece preview**: single piece
+24. **Quit**
+25. **Restart**: refresh page
+26. **Retry**: refresh page
+27. **Rotation**: sound effect
+28. **SFX**
+29. **Sleep mode**: from OS
 30. **Toggleable music**
 31. **Wall kicks**

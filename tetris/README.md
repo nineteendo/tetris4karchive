@@ -35,9 +35,9 @@
 
 1. **All tetrominoes**
 2. **Colored pieces**
-3. **Game over detection**
-4. **Gravity**
-5. **Hard drop**
+3. **Drop**: hard drop
+4. **Game over detection**
+5. **Gravity**
 6. **Horizontal movement**
 7. **Line clearing**
 8. **No bugs**

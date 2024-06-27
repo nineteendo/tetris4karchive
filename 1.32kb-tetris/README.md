@@ -48,25 +48,25 @@
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Faster levels**: `speed = min(max(speed, score / 50), 9)`
-3. **Game over detection**
-4. **Game over screen**: game over text
-5. **Gravity**
-6. **Horizontal movement**
-7. **Level selection**: start from speed 0 - 9
-8. **Line clearing**
-9. **Line clear points**:
+2. **Drop**: soft drop
+3. **Faster levels**: `speed = min(max(speed, score / 50), 9)`
+4. **Game over detection**
+5. **Game over screen**: game over text
+6. **Gravity**
+7. **Horizontal movement**
+8. **Level selection**: start from speed 0 - 9
+9. **Line clearing**
+10. **Line clear points**:
     - **Single**: 1
     - **Double**: 3
     - **Triple**: 5
     - **Tetris**: 15
-10. **Pause**: pause emulation
-11. **Piece preview**: single piece
-12. **Quit**
-13. **Retry**
-14. **Rotation**
-15. **Rotation direction selection**: clockwise or counterclockwise
-16. **Soft drop**
+11. **Pause**: pause emulation
+12. **Piece preview**: single piece
+13. **Quit**
+14. **Retry**
+15. **Rotation**
+16. **Rotation direction selection**: clockwise or counterclockwise
 17. **Title screen**
 
 ## 5. Bugs

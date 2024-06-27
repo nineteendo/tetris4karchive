@@ -35,23 +35,23 @@
 1. **All tetrominoes**
 2. **Animations**
 3. **Colored pieces**
-4. **Drop points**: `1 * fall_height`
-5. **Faster levels**: `speed = log2(lines)`
-6. **Game over detection**
-7. **Gravity**
-8. **Horizontal movement**
-9. **Line clearing**
-10. **Line clear points**:
+4. **Drop**: soft drop
+5. **Drop points**: `1 * fall_height`
+6. **Faster levels**: `speed = log2(lines)`
+7. **Game over detection**
+8. **Gravity**
+9. **Horizontal movement**
+10. **Line clearing**
+11. **Line clear points**:
     - **Single**: 32
     - **Double**: 96
     - **Triple**: 160
     - **Tetris**: 224
-11. **No bugs**
-12. **No ceiling**
-13. **Pause**: pause emulation
-14. **Placement transition**: increase brightness
-15. **Rotation**
-16. **Soft drop**
+12. **No bugs**
+13. **No ceiling**
+14. **Pause**: pause emulation
+15. **Placement transition**: increase brightness
+16. **Rotation**
 
 ## 5. How to play
 

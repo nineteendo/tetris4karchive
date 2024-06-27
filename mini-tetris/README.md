@@ -28,10 +28,10 @@
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Game over detection**
-3. **Game over screen**: invert blocks
-4. **Gravity**
-5. **Hard drop**: piece falls at maximum speed until you press another key
+2. **Drop**: hard drop, piece falls at maximum speed until you press another key
+3. **Game over detection**
+4. **Game over screen**: invert blocks
+5. **Gravity**
 6. **Horizontal movement**
 7. **Line clearing**
 8. **Line clear points**:

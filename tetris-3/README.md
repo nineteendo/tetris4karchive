@@ -50,26 +50,26 @@
 
 1. **All tetrominoes**
 2. **Animations**
-3. **Faster levels**: `speed = level`
-4. **Game over detection**
-5. **Game over screen**: animation
-6. **Gravity**
-7. **High scores**: top 3, in sub menu
-8. **Horizontal movement**
-9. **Line clearing**: animation
-10. **Line clear points**:
+3. **Drop**: soft drop
+4. **Faster levels**: `speed = level`
+5. **Game over detection**
+6. **Game over screen**: animation
+7. **Gravity**
+8. **High scores**: top 3, in sub menu
+9. **Horizontal movement**
+10. **Line clearing**: animation
+11. **Line clear points**:
     - **Single**: 1000
     - **Double**: 3000
     - **Triple**: 6000
     - **Tetris**: 10000
-11. **Pause**: menu with restart, high scores and quit
-12. **Persistent high scores**: from OS
-13. **Piece preview**: single piece
-14. **Quit**
-15. **Restart**
-16. **Retry**
-17. **Rotation**
-18. **Soft drop**
+12. **Pause**: menu with restart, high scores and quit
+13. **Persistent high scores**: from OS
+14. **Piece preview**: single piece
+15. **Quit**
+16. **Restart**
+17. **Retry**
+18. **Rotation**
 
 ## 6. Bugs
 

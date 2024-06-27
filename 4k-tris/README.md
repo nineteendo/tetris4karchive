@@ -38,11 +38,11 @@
 1. **All tetrominoes**
 2. **Animations**
 3. **Colored pieces**
-4. **Faster levels**: `speed = min(level, 25)`
-5. **Game over detection**
-6. **Game over screen**
-7. **Gravity**
-8. **Hard drop**: piece falls at maximum speed
+4. **Drop**: hard drop, piece falls at maximum speed
+5. **Faster levels**: `speed = min(level, 25)`
+6. **Game over detection**
+7. **Game over screen**
+8. **Gravity**
 9. **Horizontal movement**
 10. **Level score multiplier**
 11. **Level selection**: start from level 1 - 25

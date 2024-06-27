@@ -26,13 +26,13 @@
 
 ## 4. Features
 
-1. **Game over detection**
-2. **Gravity**
-3. **Horizontal movement**
-4. **Line clearing**
-5. **No bugs**
-6. **Quit**: close tab
-7. **Restart**: refresh page
-8. **Retry**: automatic
-9. **Sleep mode**: from OS
-10. **Soft drop**
+1. **Drop**: soft drop
+2. **Game over detection**
+3. **Gravity**
+4. **Horizontal movement**
+5. **Line clearing**
+6. **No bugs**
+7. **Quit**: close tab
+8. **Restart**: refresh page
+9. **Retry**: automatic
+10. **Sleep mode**: from OS

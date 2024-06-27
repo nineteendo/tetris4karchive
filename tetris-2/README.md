@@ -30,12 +30,12 @@
 1. **All tetrominoes**
 2. **Alternative rotation**
 3. **Colored pieces**
-4. **Drop points**: 1
-5. **Faster levels**: `speed = level`
-6. **Game over detection**
-7. **Game over screen**: game over text
-8. **Gravity**
-9. **Hard drop**
+4. **Drop**: hard drop
+5. **Drop points**: 1
+6. **Faster levels**: `speed = level`
+7. **Game over detection**
+8. **Game over screen**: game over text
+9. **Gravity**
 10. **Horizontal movement**
 11. **Line clearing**
 12. **Line clear points**:

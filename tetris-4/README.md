@@ -28,11 +28,11 @@
 
 1. **All tetrominoes**
 2. **Colored pieces**
-3. **Faster levels**: `speed = min(score / 20, 9)`
-4. **Game over detection**
-5. **Game over screen**: game over text
-6. **Gravity**
-7. **Hard drop**: couple frames lock
+3. **Drop**: hard drop, couple frames lock
+4. **Faster levels**: `speed = min(score / 20, 9)`
+5. **Game over detection**
+6. **Game over screen**: game over text
+7. **Gravity**
 8. **Horizontal movement**
 9. **Line clearing**
 10. **Line clear points**:

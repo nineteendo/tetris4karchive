@@ -26,14 +26,14 @@
 
 ## 4. Features
 
-1. **Gravity**
-2. **Horizontal movement**
-3. **Line clearing**
-4. **Quit**: close tab
-5. **Restart**: refresh page
-6. **Retry**: refresh page
-7. **Sleep mode**: from OS
-8. **Soft drop**
+1. **Drop**: soft drop
+2. **Gravity**
+3. **Horizontal movement**
+4. **Line clearing**
+5. **Quit**: close tab
+6. **Restart**: refresh page
+7. **Retry**: refresh page
+8. **Sleep mode**: from OS
 
 ## 5. Bugs
 

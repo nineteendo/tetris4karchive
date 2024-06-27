@@ -35,23 +35,23 @@
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Colored pieces**
-3. **Game over detection**
-4. **Game over screen**: game over text
-5. **Gravity**
-6. **Hard drop**
-7. **Horizontal movement**
-8. **Line clearing**
-9. **Line clear points**:
+2. **Alternative drop**
+3. **Colored pieces**
+4. **Game over detection**
+5. **Game over screen**: game over text
+6. **Gravity**
+7. **Drop**
+8. **Horizontal movement**
+9. **Line clearing**
+10. **Line clear points**:
     - **Single**: 100
     - **Double**: 300
     - **Triple**: 600
     - **Tetris**: 1000
-10. **No bugs**
-11. **Pause**: pause emulation
-12. **Quit**
-13. **Rotation**
-14. **Soft drop**
+11. **No bugs**
+12. **Pause**: pause emulation
+13. **Quit**
+14. **Rotation**
 
 ## 5. How to play
 

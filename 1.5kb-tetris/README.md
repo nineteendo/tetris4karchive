@@ -29,24 +29,24 @@
 ## 4. Features
 
 1. **All tetrominoes**
-2. **Colored pieces**
-3. **Game over detection**
-4. **Game over screen**: frowning face
-5. **Gravity**
-6. **Hard drop**: piece falls at maximum speed
-7. **Horizontal movement**
-8. **Line clearing**
-9. **Line clear points**:
+2. **Alternative drop**: piece falls at maximum speed
+3. **Colored pieces**
+4. **Drop**
+5. **Game over detection**
+6. **Game over screen**: frowning face
+7. **Gravity**
+8. **Horizontal movement**
+9. **Line clearing**
+10. **Line clear points**:
     - **Single**: 9
     - **Double**: 27
     - **Triple**: 63
     - **Tetris**: 135
-10. **No bugs**
-11. **Piece preview**: single piece
-12. **Placement points**: 9
-13. **Quit**: close tab
-14. **Restart**: refresh page
-15. **Retry**: refresh page
-16. **Rotation**
-17. **Sleep mode**: from OS
-18. **Soft drop**
+11. **No bugs**
+12. **Piece preview**: single piece
+13. **Placement points**: 9
+14. **Quit**: close tab
+15. **Restart**: refresh page
+16. **Retry**: refresh page
+17. **Rotation**
+18. **Sleep mode**: from O

@@ -25,13 +25,13 @@
 
 ## 4. Features
 
-1. **Gravity**
-2. **Horizontal movement**
-3. **Line clearing**
-4. **No bugs**
-5. **Quit**
-6. **Sleep mode**: from OS
-7. **Soft drop**
+1. **Drop**: soft drop
+2. **Gravity**
+3. **Horizontal movement**
+4. **Line clearing**
+5. **No bugs**
+6. **Quit**
+7. **Sleep mode**: from OS
 
 ## 5. How to play (Windows only)
 

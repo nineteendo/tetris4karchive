@@ -37,30 +37,30 @@
 ## 5. Features
 
 1. **All tetrominoes**
-2. **Alternative rotation**
-3. **Game over detection**
-4. **Game over screen**: score
-5. **Gravity**
-6. **Hard drop**
-7. **High scores**
-8. **High scores with names**
-9. **Horizontal movement**
-10. **Line clearing**
-11. **Line clear points**:
+2. **Alternative drop**
+3. **Alternative rotation**
+4. **Drop**
+5. **Game over detection**
+6. **Game over screen**: score
+7. **Gravity**
+8. **High scores**
+9. **High scores with names**
+10. **Horizontal movement**
+11. **Line clearing**
+12. **Line clear points**:
     - **Single**: 1
     - **Double**: 3
     - **Triple**: 6
     - **Tetris**: 10
-12. **No bugs**
-13. **Pause**
-14. **Persistent high scores**
-15. **Piece preview**: single piece
-16. **Quit**
-17. **Restart**
-18. **Retry**
-19. **Rotation**
-20. **Sleep mode**: from OS
-21. **Soft drop**
+13. **No bugs**
+14. **Pause**
+15. **Persistent high scores**
+16. **Piece preview**: single piece
+17. **Quit**
+18. **Restart**
+19. **Retry**
+20. **Rotation**
+21. **Sleep mode**: from OS
 22. **Title screen**
 
 ## 5. How to play (Windows only)

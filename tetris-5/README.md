@@ -30,21 +30,21 @@
 
 1. **All tetrominoes**
 2. **Alternative rotation**
-3. **Game over detection**
-4. **Game over screen**: color swap
-5. **Gravity**
-6. **Horizontal movement**
-7. **Line clearing**
-8. **Line clear points**:
+3. **Drop**: soft drop
+4. **Game over detection**
+5. **Game over screen**: color swap
+6. **Gravity**
+7. **Horizontal movement**
+8. **Line clearing**
+9. **Line clear points**:
     - **Single**: 1
     - **Double**: 2
     - **Triple**: 3
     - **Tetris**: 4
-9. **No bugs**
-10. **Placement transition**: turns blue
-11. **Quit**: close tab
-12. **Restart**: refresh page
-13. **Retry**: refresh page
-14. **Rotation**
-15. **Sleep mode**: from OS
-16. **Soft drop**
+10. **No bugs**
+11. **Placement transition**: turns blue
+12. **Quit**: close tab
+13. **Restart**: refresh page
+14. **Retry**: refresh page
+15. **Rotation**
+16. **Sleep mode**: from OS

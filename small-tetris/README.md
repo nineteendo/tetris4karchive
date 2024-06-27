@@ -52,12 +52,12 @@ options:
 
 1. **All tetrominoes**
 2. **Colored pieces**
-3. **Drop points**: `fall_height / 2 * level`
-4. **Faster levels**: `speed = min(level, 17)`
-5. **Game over detection**
-6. **Game over screen**: game over text
-7. **Gravity**
-8. **Hard drop**
+3. **Drop**: hard drop
+4. **Drop points**: `fall_height / 2 * level`
+5. **Faster levels**: `speed = min(level, 17)`
+6. **Game over detection**
+7. **Game over screen**: game over text
+8. **Gravity**
 9. **Horizontal movement**
 10. **Level score multiplier**
 11. **Level selection**: start from level 1 - 17
