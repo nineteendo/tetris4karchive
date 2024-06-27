@@ -87,7 +87,7 @@ After [downloading the archive](https://codeload.github.com/nineteendo/tetris4ka
 
 ### 6.1. WabbitEmu (Windows only)
 
-1. [Download ti84se.rom](https://tiroms.weebly.com/uploads/1/1/0/5/110560031/ti84se.rom)
+1. [Download ti84se.rom](https://web.archive.org/web/20240409191813/http://tiroms.weebly.com/uploads/1/1/0/5/110560031/ti84se.rom)
 2. [Download WabbitEmu](https://github.com/sputt/wabbitemu/releases/download/v1.9.5.22/Wabbitemu.exe)
 3. Open WabbitEmu
 4. Browse for `ti84se.rom`
