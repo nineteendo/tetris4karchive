@@ -1,4 +1,4 @@
-# Tetris-84 by Nice Zombies
+# Tetris 84 by Nice Zombies
 
 ## 1. Links
 
